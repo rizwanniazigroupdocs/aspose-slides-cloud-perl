@@ -1,4 +1,4 @@
-The MIT License (MIT)
+=begin comment
 
 Copyright (c) 2019 Aspose Pty Ltd
 
@@ -19,3 +19,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+=end comment
+
+=cut
+
+package AsposeSlidesCloud::ApiInfo;
+
+use strict;
+use warnings;
+use utf8;
+
+use constant VERSION => '19.11.0';
+
+1;

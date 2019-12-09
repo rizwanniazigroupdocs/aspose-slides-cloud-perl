@@ -1,4 +1,4 @@
-The MIT License (MIT)
+=begin comment
 
 Copyright (c) 2019 Aspose Pty Ltd
 
@@ -19,3 +19,37 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+=end comment
+
+=cut
+
+package AsposeSlidesCloud::Configuration;
+
+use strict;
+use warnings;
+use utf8;
+
+sub new {
+	my ($self, %p) = (shift,@_);
+
+	# authentication setting
+	$p{app_sid} //= "";
+	$p{app_key} //= "";
+
+	$p{access_token} //= "";
+
+	# base_url
+        $p{base_url} //= 'https://api.aspose.cloud';
+        $p{auth_base_url} //= 'https://api.aspose.cloud';
+        $p{version} //= 'v3.0';
+
+	# class/static variables
+	$p{timeout} //= 0;
+	$p{debug} //= 0;
+	$p{custom_headers} //= {};
+
+	return bless \%p => $self;
+}
+
+1;
