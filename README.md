@@ -22,13 +22,15 @@ To use Aspose Slides Cloud SDK for Perl you need to register an account with [As
 ### Installation
 
 ```sh
-cpan ASPOSE/AsposeSlidesCloud-SlidesApi-19.11.1.tar.gz
+cpan ASPOSE/AsposeSlidesCloud-SlidesApi-19.1204.tar.gz
 ```
 
 ### Sample usage
 
 The example code below converts a PowerPoint document to PDF format using aspose_slides_cloud library:
 ```perl
+	use File::Slurp;
+
 	use AsposeSlidesCloud::Configuration;
 	use AsposeSlidesCloud::SlidesApi;
 
@@ -37,7 +39,7 @@ The example code below converts a PowerPoint document to PDF format using aspose
 	$config->{app_key} = "MyAppKey";
 	my $api = AsposeSlidesCloud::SlidesApi->new(config => $config);
 	my $file = read_file("MyPresentation.pptx", { binmode => ':raw' });
-	my %params = ('format' => 'pdf', 'document' => '');
+	my %params = ('format' => 'pdf', 'document' => $file);
 	my $result = $api->post_slides_convert(%params);
 	my $pdf = "MyPresentation.pdf";
 	open my $fh, '>>', $pdf;
