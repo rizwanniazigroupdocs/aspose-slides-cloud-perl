@@ -7206,6 +7206,81 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# get_slides_view_properties test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_slides_view_properties', 'name', 'string'), 'password' => $utils->get_param_value('get_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('get_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slides_view_properties', 'storage', 'string'));
+    $utils->initialize('get_slides_view_properties', '');
+    eval {
+        my $result = $utils->{api}->get_slides_view_properties(%params);
+    };
+    if ($@) {
+        fail("get_slides_view_properties raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slides_view_properties', 'name', 'string'), 'password' => $utils->get_param_value('get_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('get_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slides_view_properties', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_slides_view_properties', 'name', $params{ name });
+    $utils->initialize('get_slides_view_properties', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slides_view_properties', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_slides_view_properties', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slides_view_properties', 'name', 'string'), 'password' => $utils->get_param_value('get_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('get_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slides_view_properties', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_slides_view_properties', 'password', $params{ password });
+    $utils->initialize('get_slides_view_properties', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slides_view_properties', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_slides_view_properties', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slides_view_properties', 'name', 'string'), 'password' => $utils->get_param_value('get_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('get_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slides_view_properties', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_slides_view_properties', 'folder', $params{ folder });
+    $utils->initialize('get_slides_view_properties', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slides_view_properties', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_slides_view_properties', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slides_view_properties', 'name', 'string'), 'password' => $utils->get_param_value('get_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('get_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slides_view_properties', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_slides_view_properties', 'storage', $params{ storage });
+    $utils->initialize('get_slides_view_properties', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slides_view_properties', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_slides_view_properties', 'storage');
+    }
+}
+
+#
 # move_file test
 #
 {
@@ -13952,6 +14027,96 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('put_slides_slide_size', 'scale_type', $params{ scale_type }, $@);
     } else {
         $utils->assert_no_error('put_slides_slide_size', 'scale_type');
+    }
+}
+
+#
+# put_slides_view_properties test
+#
+{
+    my %params = ('name' => $utils->get_param_value('put_slides_view_properties', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_view_properties', 'dto', 'ViewProperties'), 'password' => $utils->get_param_value('put_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slides_view_properties', 'storage', 'string'));
+    $utils->initialize('put_slides_view_properties', '');
+    eval {
+        my $result = $utils->{api}->put_slides_view_properties(%params);
+    };
+    if ($@) {
+        fail("put_slides_view_properties raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slides_view_properties', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_view_properties', 'dto', 'ViewProperties'), 'password' => $utils->get_param_value('put_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slides_view_properties', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_slides_view_properties', 'name', $params{ name });
+    $utils->initialize('put_slides_view_properties', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_view_properties', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_view_properties', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slides_view_properties', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_view_properties', 'dto', 'ViewProperties'), 'password' => $utils->get_param_value('put_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slides_view_properties', 'storage', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_slides_view_properties', 'dto', $params{ dto });
+    $utils->initialize('put_slides_view_properties', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_view_properties', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_view_properties', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slides_view_properties', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_view_properties', 'dto', 'ViewProperties'), 'password' => $utils->get_param_value('put_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slides_view_properties', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_slides_view_properties', 'password', $params{ password });
+    $utils->initialize('put_slides_view_properties', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_view_properties', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_view_properties', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slides_view_properties', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_view_properties', 'dto', 'ViewProperties'), 'password' => $utils->get_param_value('put_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slides_view_properties', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_slides_view_properties', 'folder', $params{ folder });
+    $utils->initialize('put_slides_view_properties', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_view_properties', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_view_properties', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slides_view_properties', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_view_properties', 'dto', 'ViewProperties'), 'password' => $utils->get_param_value('put_slides_view_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_slides_view_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slides_view_properties', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_slides_view_properties', 'storage', $params{ storage });
+    $utils->initialize('put_slides_view_properties', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_slides_view_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_view_properties', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_view_properties', 'storage');
     }
 }
 
