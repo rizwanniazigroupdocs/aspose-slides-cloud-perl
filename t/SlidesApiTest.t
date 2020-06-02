@@ -8361,6 +8361,186 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# post_get_notes_slide test
+#
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    $utils->initialize('post_get_notes_slide', '');
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide(%params);
+    };
+    if ($@) {
+        fail("post_get_notes_slide raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_get_notes_slide', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide', 'slide_index');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    $params{ document } = $utils->invalidize_param_value('post_get_notes_slide', 'document', $params{ document });
+    $utils->initialize('post_get_notes_slide', 'document', $params{ document });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide', 'document', $params{ document }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide', 'document');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_get_notes_slide', 'password', $params{ password });
+    $utils->initialize('post_get_notes_slide', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide', 'password');
+    }
+}
+
+#
+# post_get_notes_slide_with_format test
+#
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $utils->initialize('post_get_notes_slide_with_format', '');
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        fail("post_get_notes_slide_with_format raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_get_notes_slide_with_format', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'slide_index');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ format } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'format', $params{ format });
+    $utils->initialize('post_get_notes_slide_with_format', 'format', $params{ format });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'format', $params{ format }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'format');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ document } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'document', $params{ document });
+    $utils->initialize('post_get_notes_slide_with_format', 'document', $params{ document });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'document', $params{ document }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'document');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ width } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'width', $params{ width });
+    $utils->initialize('post_get_notes_slide_with_format', 'width', $params{ width });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'width', $params{ width }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'width');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ height } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'height', $params{ height });
+    $utils->initialize('post_get_notes_slide_with_format', 'height', $params{ height });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'height', $params{ height }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'height');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'password', $params{ password });
+    $utils->initialize('post_get_notes_slide_with_format', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'password');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ fonts_folder } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'fonts_folder', $params{ fonts_folder });
+    $utils->initialize('post_get_notes_slide_with_format', 'fonts_folder', $params{ fonts_folder });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'fonts_folder', $params{ fonts_folder }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'fonts_folder');
+    }
+}
+
+#
 # post_notes_slide_add_new_paragraph test
 #
 {
