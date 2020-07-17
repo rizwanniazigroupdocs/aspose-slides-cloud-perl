@@ -22,7 +22,7 @@ To use Aspose Slides Cloud SDK for Perl you need to register an account with [As
 ### Installation
 
 ```sh
-cpan ASPOSE/AsposeSlidesCloud-SlidesApi-20.05.tar.gz
+cpan ASPOSE/AsposeSlidesCloud-SlidesApi-20.06.tar.gz
 ```
 
 ### Sample usage

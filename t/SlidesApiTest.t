@@ -459,7 +459,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_notes_slide_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $utils->initialize('delete_notes_slide_paragraph', '');
     eval {
         my $result = $utils->{api}->delete_notes_slide_paragraph(%params);
@@ -471,7 +471,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'name', $params{ name });
     $utils->initialize('delete_notes_slide_paragraph', 'name', $params{ name });
 
@@ -486,7 +486,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_notes_slide_paragraph', 'slide_index', $params{ slide_index });
 
@@ -501,22 +501,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'path', $params{ path });
-    $utils->initialize('delete_notes_slide_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_notes_slide_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_notes_slide_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_notes_slide_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_notes_slide_paragraph', 'shape_index', $params{ shape_index });
 
@@ -531,7 +516,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('delete_notes_slide_paragraph', 'paragraph_index', $params{ paragraph_index });
 
@@ -546,7 +531,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'password', $params{ password });
     $utils->initialize('delete_notes_slide_paragraph', 'password', $params{ password });
 
@@ -561,7 +546,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'folder', $params{ folder });
     $utils->initialize('delete_notes_slide_paragraph', 'folder', $params{ folder });
 
@@ -576,7 +561,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraph', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_notes_slide_paragraph', 'storage', $params{ storage });
     $utils->initialize('delete_notes_slide_paragraph', 'storage', $params{ storage });
 
@@ -594,7 +579,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_notes_slide_paragraphs test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $utils->initialize('delete_notes_slide_paragraphs', '');
     eval {
         my $result = $utils->{api}->delete_notes_slide_paragraphs(%params);
@@ -606,7 +591,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'name', $params{ name });
     $utils->initialize('delete_notes_slide_paragraphs', 'name', $params{ name });
 
@@ -621,7 +606,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_notes_slide_paragraphs', 'slide_index', $params{ slide_index });
 
@@ -636,22 +621,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'path', $params{ path });
-    $utils->initialize('delete_notes_slide_paragraphs', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_notes_slide_paragraphs(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_notes_slide_paragraphs', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_notes_slide_paragraphs', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_notes_slide_paragraphs', 'shape_index', $params{ shape_index });
 
@@ -666,7 +636,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ paragraphs } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'paragraphs', $params{ paragraphs });
     $utils->initialize('delete_notes_slide_paragraphs', 'paragraphs', $params{ paragraphs });
 
@@ -681,7 +651,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'password', $params{ password });
     $utils->initialize('delete_notes_slide_paragraphs', 'password', $params{ password });
 
@@ -696,7 +666,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'folder', $params{ folder });
     $utils->initialize('delete_notes_slide_paragraphs', 'folder', $params{ folder });
 
@@ -711,7 +681,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_notes_slide_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_paragraphs', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_notes_slide_paragraphs', 'storage', $params{ storage });
     $utils->initialize('delete_notes_slide_paragraphs', 'storage', $params{ storage });
 
@@ -729,7 +699,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_notes_slide_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $utils->initialize('delete_notes_slide_portion', '');
     eval {
         my $result = $utils->{api}->delete_notes_slide_portion(%params);
@@ -741,7 +711,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_notes_slide_portion', 'name', $params{ name });
     $utils->initialize('delete_notes_slide_portion', 'name', $params{ name });
 
@@ -756,7 +726,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_notes_slide_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_notes_slide_portion', 'slide_index', $params{ slide_index });
 
@@ -771,22 +741,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_notes_slide_portion', 'path', $params{ path });
-    $utils->initialize('delete_notes_slide_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_notes_slide_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_notes_slide_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_notes_slide_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_notes_slide_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_notes_slide_portion', 'shape_index', $params{ shape_index });
 
@@ -801,7 +756,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('delete_notes_slide_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('delete_notes_slide_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -816,7 +771,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ portion_index } = $utils->invalidize_param_value('delete_notes_slide_portion', 'portion_index', $params{ portion_index });
     $utils->initialize('delete_notes_slide_portion', 'portion_index', $params{ portion_index });
 
@@ -831,7 +786,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_notes_slide_portion', 'password', $params{ password });
     $utils->initialize('delete_notes_slide_portion', 'password', $params{ password });
 
@@ -846,7 +801,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_notes_slide_portion', 'folder', $params{ folder });
     $utils->initialize('delete_notes_slide_portion', 'folder', $params{ folder });
 
@@ -861,7 +816,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_notes_slide_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portion', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_notes_slide_portion', 'storage', $params{ storage });
     $utils->initialize('delete_notes_slide_portion', 'storage', $params{ storage });
 
@@ -879,7 +834,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_notes_slide_portions test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $utils->initialize('delete_notes_slide_portions', '');
     eval {
         my $result = $utils->{api}->delete_notes_slide_portions(%params);
@@ -891,7 +846,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_notes_slide_portions', 'name', $params{ name });
     $utils->initialize('delete_notes_slide_portions', 'name', $params{ name });
 
@@ -906,7 +861,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_notes_slide_portions', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_notes_slide_portions', 'slide_index', $params{ slide_index });
 
@@ -921,22 +876,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_notes_slide_portions', 'path', $params{ path });
-    $utils->initialize('delete_notes_slide_portions', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_notes_slide_portions(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_notes_slide_portions', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_notes_slide_portions', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_notes_slide_portions', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_notes_slide_portions', 'shape_index', $params{ shape_index });
 
@@ -951,7 +891,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('delete_notes_slide_portions', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('delete_notes_slide_portions', 'paragraph_index', $params{ paragraph_index });
 
@@ -966,7 +906,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ portions } = $utils->invalidize_param_value('delete_notes_slide_portions', 'portions', $params{ portions });
     $utils->initialize('delete_notes_slide_portions', 'portions', $params{ portions });
 
@@ -981,7 +921,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_notes_slide_portions', 'password', $params{ password });
     $utils->initialize('delete_notes_slide_portions', 'password', $params{ password });
 
@@ -996,7 +936,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_notes_slide_portions', 'folder', $params{ folder });
     $utils->initialize('delete_notes_slide_portions', 'folder', $params{ folder });
 
@@ -1011,7 +951,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_notes_slide_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_notes_slide_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_portions', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_notes_slide_portions', 'storage', $params{ storage });
     $utils->initialize('delete_notes_slide_portions', 'storage', $params{ storage });
 
@@ -1029,7 +969,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_notes_slide_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $utils->initialize('delete_notes_slide_shape', '');
     eval {
         my $result = $utils->{api}->delete_notes_slide_shape(%params);
@@ -1041,7 +981,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_notes_slide_shape', 'name', $params{ name });
     $utils->initialize('delete_notes_slide_shape', 'name', $params{ name });
 
@@ -1056,7 +996,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_notes_slide_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_notes_slide_shape', 'slide_index', $params{ slide_index });
 
@@ -1071,22 +1011,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_notes_slide_shape', 'path', $params{ path });
-    $utils->initialize('delete_notes_slide_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_notes_slide_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_notes_slide_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_notes_slide_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_notes_slide_shape', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_notes_slide_shape', 'shape_index', $params{ shape_index });
 
@@ -1101,7 +1026,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_notes_slide_shape', 'password', $params{ password });
     $utils->initialize('delete_notes_slide_shape', 'password', $params{ password });
 
@@ -1116,7 +1041,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_notes_slide_shape', 'folder', $params{ folder });
     $utils->initialize('delete_notes_slide_shape', 'folder', $params{ folder });
 
@@ -1131,7 +1056,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shape', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_notes_slide_shape', 'storage', $params{ storage });
     $utils->initialize('delete_notes_slide_shape', 'storage', $params{ storage });
 
@@ -1149,7 +1074,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_notes_slide_shapes test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $utils->initialize('delete_notes_slide_shapes', '');
     eval {
         my $result = $utils->{api}->delete_notes_slide_shapes(%params);
@@ -1161,7 +1086,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'name', $params{ name });
     $utils->initialize('delete_notes_slide_shapes', 'name', $params{ name });
 
@@ -1176,7 +1101,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_notes_slide_shapes', 'slide_index', $params{ slide_index });
 
@@ -1191,22 +1116,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'path', $params{ path });
-    $utils->initialize('delete_notes_slide_shapes', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_notes_slide_shapes(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_notes_slide_shapes', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_notes_slide_shapes', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $params{ shapes } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'shapes', $params{ shapes });
     $utils->initialize('delete_notes_slide_shapes', 'shapes', $params{ shapes });
 
@@ -1221,7 +1131,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'password', $params{ password });
     $utils->initialize('delete_notes_slide_shapes', 'password', $params{ password });
 
@@ -1236,7 +1146,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'folder', $params{ folder });
     $utils->initialize('delete_notes_slide_shapes', 'folder', $params{ folder });
 
@@ -1251,7 +1161,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_notes_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_notes_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_notes_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_notes_slide_shapes', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_notes_slide_shapes', 'storage', $params{ storage });
     $utils->initialize('delete_notes_slide_shapes', 'storage', $params{ storage });
 
@@ -1269,7 +1179,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $utils->initialize('delete_paragraph', '');
     eval {
         my $result = $utils->{api}->delete_paragraph(%params);
@@ -1281,7 +1191,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_paragraph', 'name', $params{ name });
     $utils->initialize('delete_paragraph', 'name', $params{ name });
 
@@ -1296,7 +1206,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_paragraph', 'slide_index', $params{ slide_index });
 
@@ -1311,22 +1221,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_paragraph', 'path', $params{ path });
-    $utils->initialize('delete_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_paragraph', 'shape_index', $params{ shape_index });
 
@@ -1341,7 +1236,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('delete_paragraph', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('delete_paragraph', 'paragraph_index', $params{ paragraph_index });
 
@@ -1356,7 +1251,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_paragraph', 'password', $params{ password });
     $utils->initialize('delete_paragraph', 'password', $params{ password });
 
@@ -1371,7 +1266,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_paragraph', 'folder', $params{ folder });
     $utils->initialize('delete_paragraph', 'folder', $params{ folder });
 
@@ -1386,7 +1281,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraph', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_paragraph', 'storage', $params{ storage });
     $utils->initialize('delete_paragraph', 'storage', $params{ storage });
 
@@ -1404,7 +1299,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_paragraphs test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $utils->initialize('delete_paragraphs', '');
     eval {
         my $result = $utils->{api}->delete_paragraphs(%params);
@@ -1416,7 +1311,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_paragraphs', 'name', $params{ name });
     $utils->initialize('delete_paragraphs', 'name', $params{ name });
 
@@ -1431,7 +1326,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_paragraphs', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_paragraphs', 'slide_index', $params{ slide_index });
 
@@ -1446,22 +1341,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_paragraphs', 'path', $params{ path });
-    $utils->initialize('delete_paragraphs', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_paragraphs(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_paragraphs', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_paragraphs', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_paragraphs', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_paragraphs', 'shape_index', $params{ shape_index });
 
@@ -1476,7 +1356,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ paragraphs } = $utils->invalidize_param_value('delete_paragraphs', 'paragraphs', $params{ paragraphs });
     $utils->initialize('delete_paragraphs', 'paragraphs', $params{ paragraphs });
 
@@ -1491,7 +1371,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_paragraphs', 'password', $params{ password });
     $utils->initialize('delete_paragraphs', 'password', $params{ password });
 
@@ -1506,7 +1386,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_paragraphs', 'folder', $params{ folder });
     $utils->initialize('delete_paragraphs', 'folder', $params{ folder });
 
@@ -1521,7 +1401,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_paragraphs', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_paragraphs', 'storage', $params{ storage });
     $utils->initialize('delete_paragraphs', 'storage', $params{ storage });
 
@@ -1539,7 +1419,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $utils->initialize('delete_portion', '');
     eval {
         my $result = $utils->{api}->delete_portion(%params);
@@ -1551,7 +1431,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_portion', 'name', $params{ name });
     $utils->initialize('delete_portion', 'name', $params{ name });
 
@@ -1566,7 +1446,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_portion', 'slide_index', $params{ slide_index });
 
@@ -1581,22 +1461,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_portion', 'path', $params{ path });
-    $utils->initialize('delete_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_portion', 'shape_index', $params{ shape_index });
 
@@ -1611,7 +1476,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('delete_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('delete_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -1626,7 +1491,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ portion_index } = $utils->invalidize_param_value('delete_portion', 'portion_index', $params{ portion_index });
     $utils->initialize('delete_portion', 'portion_index', $params{ portion_index });
 
@@ -1641,7 +1506,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_portion', 'password', $params{ password });
     $utils->initialize('delete_portion', 'password', $params{ password });
 
@@ -1656,7 +1521,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_portion', 'folder', $params{ folder });
     $utils->initialize('delete_portion', 'folder', $params{ folder });
 
@@ -1671,7 +1536,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portion', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_portion', 'storage', $params{ storage });
     $utils->initialize('delete_portion', 'storage', $params{ storage });
 
@@ -1689,7 +1554,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_portions test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $utils->initialize('delete_portions', '');
     eval {
         my $result = $utils->{api}->delete_portions(%params);
@@ -1701,7 +1566,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_portions', 'name', $params{ name });
     $utils->initialize('delete_portions', 'name', $params{ name });
 
@@ -1716,7 +1581,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_portions', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_portions', 'slide_index', $params{ slide_index });
 
@@ -1731,22 +1596,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_portions', 'path', $params{ path });
-    $utils->initialize('delete_portions', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_portions(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_portions', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_portions', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_portions', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_portions', 'shape_index', $params{ shape_index });
 
@@ -1761,7 +1611,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('delete_portions', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('delete_portions', 'paragraph_index', $params{ paragraph_index });
 
@@ -1776,7 +1626,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ portions } = $utils->invalidize_param_value('delete_portions', 'portions', $params{ portions });
     $utils->initialize('delete_portions', 'portions', $params{ portions });
 
@@ -1791,7 +1641,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_portions', 'password', $params{ password });
     $utils->initialize('delete_portions', 'password', $params{ password });
 
@@ -1806,7 +1656,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_portions', 'folder', $params{ folder });
     $utils->initialize('delete_portions', 'folder', $params{ folder });
 
@@ -1821,7 +1671,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_portions', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_portions', 'storage', $params{ storage });
     $utils->initialize('delete_portions', 'storage', $params{ storage });
 
@@ -2529,7 +2379,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_slide_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $utils->initialize('delete_slide_shape', '');
     eval {
         my $result = $utils->{api}->delete_slide_shape(%params);
@@ -2541,7 +2391,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_slide_shape', 'name', $params{ name });
     $utils->initialize('delete_slide_shape', 'name', $params{ name });
 
@@ -2556,7 +2406,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_slide_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_slide_shape', 'slide_index', $params{ slide_index });
 
@@ -2571,22 +2421,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_slide_shape', 'path', $params{ path });
-    $utils->initialize('delete_slide_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_slide_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_slide_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_slide_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('delete_slide_shape', 'shape_index', $params{ shape_index });
     $utils->initialize('delete_slide_shape', 'shape_index', $params{ shape_index });
 
@@ -2601,7 +2436,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_slide_shape', 'password', $params{ password });
     $utils->initialize('delete_slide_shape', 'password', $params{ password });
 
@@ -2616,7 +2451,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_slide_shape', 'folder', $params{ folder });
     $utils->initialize('delete_slide_shape', 'folder', $params{ folder });
 
@@ -2631,7 +2466,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shape', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_slide_shape', 'storage', $params{ storage });
     $utils->initialize('delete_slide_shape', 'storage', $params{ storage });
 
@@ -2649,7 +2484,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # delete_slide_shapes test
 #
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $utils->initialize('delete_slide_shapes', '');
     eval {
         my $result = $utils->{api}->delete_slide_shapes(%params);
@@ -2661,7 +2496,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('delete_slide_shapes', 'name', $params{ name });
     $utils->initialize('delete_slide_shapes', 'name', $params{ name });
 
@@ -2676,7 +2511,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('delete_slide_shapes', 'slide_index', $params{ slide_index });
     $utils->initialize('delete_slide_shapes', 'slide_index', $params{ slide_index });
 
@@ -2691,22 +2526,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('delete_slide_shapes', 'path', $params{ path });
-    $utils->initialize('delete_slide_shapes', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->delete_slide_shapes(%params);
-    };
-    if ($@) {
-        $utils->assert_error('delete_slide_shapes', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('delete_slide_shapes', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $params{ shapes } = $utils->invalidize_param_value('delete_slide_shapes', 'shapes', $params{ shapes });
     $utils->initialize('delete_slide_shapes', 'shapes', $params{ shapes });
 
@@ -2721,7 +2541,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('delete_slide_shapes', 'password', $params{ password });
     $utils->initialize('delete_slide_shapes', 'password', $params{ password });
 
@@ -2736,7 +2556,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('delete_slide_shapes', 'folder', $params{ folder });
     $utils->initialize('delete_slide_shapes', 'folder', $params{ folder });
 
@@ -2751,7 +2571,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_shapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('delete_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_shapes', 'slide_index', 'int'), 'shapes' => $utils->get_param_value('delete_slide_shapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_shapes', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('delete_slide_shapes', 'storage', $params{ storage });
     $utils->initialize('delete_slide_shapes', 'storage', $params{ storage });
 
@@ -2762,6 +2582,246 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('delete_slide_shapes', 'storage', $params{ storage }, $@);
     } else {
         $utils->assert_no_error('delete_slide_shapes', 'storage');
+    }
+}
+
+#
+# delete_slide_subshape test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $utils->initialize('delete_slide_subshape', '');
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        fail("delete_slide_subshape raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_slide_subshape', 'name', $params{ name });
+    $utils->initialize('delete_slide_subshape', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_slide_subshape', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_slide_subshape', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('delete_slide_subshape', 'path', $params{ path });
+    $utils->initialize('delete_slide_subshape', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('delete_slide_subshape', 'shape_index', $params{ shape_index });
+    $utils->initialize('delete_slide_subshape', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_slide_subshape', 'password', $params{ password });
+    $utils->initialize('delete_slide_subshape', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_slide_subshape', 'folder', $params{ folder });
+    $utils->initialize('delete_slide_subshape', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('delete_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshape', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_slide_subshape', 'storage', $params{ storage });
+    $utils->initialize('delete_slide_subshape', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshape', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshape', 'storage');
+    }
+}
+
+#
+# delete_slide_subshapes test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $utils->initialize('delete_slide_subshapes', '');
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        fail("delete_slide_subshapes raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_slide_subshapes', 'name', $params{ name });
+    $utils->initialize('delete_slide_subshapes', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_slide_subshapes', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_slide_subshapes', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('delete_slide_subshapes', 'path', $params{ path });
+    $utils->initialize('delete_slide_subshapes', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ shapes } = $utils->invalidize_param_value('delete_slide_subshapes', 'shapes', $params{ shapes });
+    $utils->initialize('delete_slide_subshapes', 'shapes', $params{ shapes });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'shapes', $params{ shapes }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'shapes');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_slide_subshapes', 'password', $params{ password });
+    $utils->initialize('delete_slide_subshapes', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_slide_subshapes', 'folder', $params{ folder });
+    $utils->initialize('delete_slide_subshapes', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_slide_subshapes', 'path', 'string'), 'shapes' => $utils->get_param_value('delete_slide_subshapes', 'shapes', 'string'), 'password' => $utils->get_param_value('delete_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('delete_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_slide_subshapes', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_slide_subshapes', 'storage', $params{ storage });
+    $utils->initialize('delete_slide_subshapes', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_slide_subshapes', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_slide_subshapes', 'storage');
     }
 }
 
@@ -3107,6 +3167,576 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('delete_slides_slide_background', 'storage', $params{ storage }, $@);
     } else {
         $utils->assert_no_error('delete_slides_slide_background', 'storage');
+    }
+}
+
+#
+# delete_subshape_paragraph test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $utils->initialize('delete_subshape_paragraph', '');
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        fail("delete_subshape_paragraph raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_subshape_paragraph', 'name', $params{ name });
+    $utils->initialize('delete_subshape_paragraph', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_subshape_paragraph', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_subshape_paragraph', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('delete_subshape_paragraph', 'path', $params{ path });
+    $utils->initialize('delete_subshape_paragraph', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('delete_subshape_paragraph', 'shape_index', $params{ shape_index });
+    $utils->initialize('delete_subshape_paragraph', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('delete_subshape_paragraph', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('delete_subshape_paragraph', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_subshape_paragraph', 'password', $params{ password });
+    $utils->initialize('delete_subshape_paragraph', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_subshape_paragraph', 'folder', $params{ folder });
+    $utils->initialize('delete_subshape_paragraph', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraph', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_subshape_paragraph', 'storage', $params{ storage });
+    $utils->initialize('delete_subshape_paragraph', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraph', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraph', 'storage');
+    }
+}
+
+#
+# delete_subshape_paragraphs test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $utils->initialize('delete_subshape_paragraphs', '');
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        fail("delete_subshape_paragraphs raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'name', $params{ name });
+    $utils->initialize('delete_subshape_paragraphs', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_subshape_paragraphs', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'path', $params{ path });
+    $utils->initialize('delete_subshape_paragraphs', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'shape_index', $params{ shape_index });
+    $utils->initialize('delete_subshape_paragraphs', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ paragraphs } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'paragraphs', $params{ paragraphs });
+    $utils->initialize('delete_subshape_paragraphs', 'paragraphs', $params{ paragraphs });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'paragraphs', $params{ paragraphs }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'paragraphs');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'password', $params{ password });
+    $utils->initialize('delete_subshape_paragraphs', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'folder', $params{ folder });
+    $utils->initialize('delete_subshape_paragraphs', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_paragraphs', 'shape_index', 'int'), 'paragraphs' => $utils->get_param_value('delete_subshape_paragraphs', 'paragraphs', 'string'), 'password' => $utils->get_param_value('delete_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_paragraphs', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_subshape_paragraphs', 'storage', $params{ storage });
+    $utils->initialize('delete_subshape_paragraphs', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_paragraphs', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_paragraphs', 'storage');
+    }
+}
+
+#
+# delete_subshape_portion test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $utils->initialize('delete_subshape_portion', '');
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        fail("delete_subshape_portion raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_subshape_portion', 'name', $params{ name });
+    $utils->initialize('delete_subshape_portion', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_subshape_portion', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_subshape_portion', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('delete_subshape_portion', 'path', $params{ path });
+    $utils->initialize('delete_subshape_portion', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('delete_subshape_portion', 'shape_index', $params{ shape_index });
+    $utils->initialize('delete_subshape_portion', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('delete_subshape_portion', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('delete_subshape_portion', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ portion_index } = $utils->invalidize_param_value('delete_subshape_portion', 'portion_index', $params{ portion_index });
+    $utils->initialize('delete_subshape_portion', 'portion_index', $params{ portion_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'portion_index', $params{ portion_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'portion_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_subshape_portion', 'password', $params{ password });
+    $utils->initialize('delete_subshape_portion', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_subshape_portion', 'folder', $params{ folder });
+    $utils->initialize('delete_subshape_portion', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('delete_subshape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('delete_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portion', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_subshape_portion', 'storage', $params{ storage });
+    $utils->initialize('delete_subshape_portion', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portion', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portion', 'storage');
+    }
+}
+
+#
+# delete_subshape_portions test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $utils->initialize('delete_subshape_portions', '');
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        fail("delete_subshape_portions raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_subshape_portions', 'name', $params{ name });
+    $utils->initialize('delete_subshape_portions', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_subshape_portions', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_subshape_portions', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('delete_subshape_portions', 'path', $params{ path });
+    $utils->initialize('delete_subshape_portions', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('delete_subshape_portions', 'shape_index', $params{ shape_index });
+    $utils->initialize('delete_subshape_portions', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('delete_subshape_portions', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('delete_subshape_portions', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ portions } = $utils->invalidize_param_value('delete_subshape_portions', 'portions', $params{ portions });
+    $utils->initialize('delete_subshape_portions', 'portions', $params{ portions });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'portions', $params{ portions }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'portions');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_subshape_portions', 'password', $params{ password });
+    $utils->initialize('delete_subshape_portions', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_subshape_portions', 'folder', $params{ folder });
+    $utils->initialize('delete_subshape_portions', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_subshape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_subshape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('delete_subshape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('delete_subshape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('delete_subshape_portions', 'paragraph_index', 'int'), 'portions' => $utils->get_param_value('delete_subshape_portions', 'portions', 'string'), 'password' => $utils->get_param_value('delete_subshape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('delete_subshape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_subshape_portions', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_subshape_portions', 'storage', $params{ storage });
+    $utils->initialize('delete_subshape_portions', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_subshape_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_subshape_portions', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_subshape_portions', 'storage');
     }
 }
 
@@ -3711,10 +4341,100 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# get_notes_slide_exists test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_exists', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_exists', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_exists', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_exists', 'storage', 'string'));
+    $utils->initialize('get_notes_slide_exists', '');
+    eval {
+        my $result = $utils->{api}->get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        fail("get_notes_slide_exists raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_exists', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_exists', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_exists', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_exists', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_notes_slide_exists', 'name', $params{ name });
+    $utils->initialize('get_notes_slide_exists', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_exists', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_exists', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_exists', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_exists', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_exists', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_exists', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_exists', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_notes_slide_exists', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_exists', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_exists', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_exists', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_exists', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_exists', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_exists', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_notes_slide_exists', 'password', $params{ password });
+    $utils->initialize('get_notes_slide_exists', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_exists', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_exists', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_exists', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_exists', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_exists', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_exists', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_notes_slide_exists', 'folder', $params{ folder });
+    $utils->initialize('get_notes_slide_exists', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_exists', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_exists', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_exists', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_exists', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_exists', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_exists', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_notes_slide_exists', 'storage', $params{ storage });
+    $utils->initialize('get_notes_slide_exists', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_exists', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_exists', 'storage');
+    }
+}
+
+#
 # get_notes_slide_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $utils->initialize('get_notes_slide_shape', '');
     eval {
         my $result = $utils->{api}->get_notes_slide_shape(%params);
@@ -3726,7 +4446,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_notes_slide_shape', 'name', $params{ name });
     $utils->initialize('get_notes_slide_shape', 'name', $params{ name });
 
@@ -3741,7 +4461,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('get_notes_slide_shape', 'slide_index', $params{ slide_index });
 
@@ -3756,22 +4476,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_notes_slide_shape', 'path', $params{ path });
-    $utils->initialize('get_notes_slide_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_notes_slide_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_notes_slide_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_notes_slide_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_notes_slide_shape', 'shape_index', $params{ shape_index });
     $utils->initialize('get_notes_slide_shape', 'shape_index', $params{ shape_index });
 
@@ -3786,7 +4491,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_notes_slide_shape', 'password', $params{ password });
     $utils->initialize('get_notes_slide_shape', 'password', $params{ password });
 
@@ -3801,7 +4506,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_notes_slide_shape', 'folder', $params{ folder });
     $utils->initialize('get_notes_slide_shape', 'folder', $params{ folder });
 
@@ -3816,7 +4521,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_notes_slide_shape', 'storage', $params{ storage });
     $utils->initialize('get_notes_slide_shape', 'storage', $params{ storage });
 
@@ -3834,7 +4539,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_notes_slide_shape_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $utils->initialize('get_notes_slide_shape_paragraph', '');
     eval {
         my $result = $utils->{api}->get_notes_slide_shape_paragraph(%params);
@@ -3846,7 +4551,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'name', $params{ name });
     $utils->initialize('get_notes_slide_shape_paragraph', 'name', $params{ name });
 
@@ -3861,7 +4566,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('get_notes_slide_shape_paragraph', 'slide_index', $params{ slide_index });
 
@@ -3876,22 +4581,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'path', $params{ path });
-    $utils->initialize('get_notes_slide_shape_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_notes_slide_shape_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_notes_slide_shape_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_notes_slide_shape_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('get_notes_slide_shape_paragraph', 'shape_index', $params{ shape_index });
 
@@ -3906,7 +4596,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('get_notes_slide_shape_paragraph', 'paragraph_index', $params{ paragraph_index });
 
@@ -3921,7 +4611,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'password', $params{ password });
     $utils->initialize('get_notes_slide_shape_paragraph', 'password', $params{ password });
 
@@ -3936,7 +4626,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'folder', $params{ folder });
     $utils->initialize('get_notes_slide_shape_paragraph', 'folder', $params{ folder });
 
@@ -3951,7 +4641,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_notes_slide_shape_paragraph', 'storage', $params{ storage });
     $utils->initialize('get_notes_slide_shape_paragraph', 'storage', $params{ storage });
 
@@ -3969,7 +4659,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_notes_slide_shape_paragraphs test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $utils->initialize('get_notes_slide_shape_paragraphs', '');
     eval {
         my $result = $utils->{api}->get_notes_slide_shape_paragraphs(%params);
@@ -3981,7 +4671,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'name', $params{ name });
     $utils->initialize('get_notes_slide_shape_paragraphs', 'name', $params{ name });
 
@@ -3996,7 +4686,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'slide_index', $params{ slide_index });
     $utils->initialize('get_notes_slide_shape_paragraphs', 'slide_index', $params{ slide_index });
 
@@ -4011,22 +4701,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'path', $params{ path });
-    $utils->initialize('get_notes_slide_shape_paragraphs', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_notes_slide_shape_paragraphs(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_notes_slide_shape_paragraphs', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_notes_slide_shape_paragraphs', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'shape_index', $params{ shape_index });
     $utils->initialize('get_notes_slide_shape_paragraphs', 'shape_index', $params{ shape_index });
 
@@ -4041,7 +4716,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'password', $params{ password });
     $utils->initialize('get_notes_slide_shape_paragraphs', 'password', $params{ password });
 
@@ -4056,7 +4731,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'folder', $params{ folder });
     $utils->initialize('get_notes_slide_shape_paragraphs', 'folder', $params{ folder });
 
@@ -4071,7 +4746,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_paragraphs', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_notes_slide_shape_paragraphs', 'storage', $params{ storage });
     $utils->initialize('get_notes_slide_shape_paragraphs', 'storage', $params{ storage });
 
@@ -4089,7 +4764,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_notes_slide_shape_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $utils->initialize('get_notes_slide_shape_portion', '');
     eval {
         my $result = $utils->{api}->get_notes_slide_shape_portion(%params);
@@ -4101,7 +4776,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'name', $params{ name });
     $utils->initialize('get_notes_slide_shape_portion', 'name', $params{ name });
 
@@ -4116,7 +4791,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('get_notes_slide_shape_portion', 'slide_index', $params{ slide_index });
 
@@ -4131,22 +4806,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'path', $params{ path });
-    $utils->initialize('get_notes_slide_shape_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_notes_slide_shape_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_notes_slide_shape_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_notes_slide_shape_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('get_notes_slide_shape_portion', 'shape_index', $params{ shape_index });
 
@@ -4161,7 +4821,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('get_notes_slide_shape_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -4176,7 +4836,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ portion_index } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'portion_index', $params{ portion_index });
     $utils->initialize('get_notes_slide_shape_portion', 'portion_index', $params{ portion_index });
 
@@ -4191,7 +4851,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'password', $params{ password });
     $utils->initialize('get_notes_slide_shape_portion', 'password', $params{ password });
 
@@ -4206,7 +4866,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'folder', $params{ folder });
     $utils->initialize('get_notes_slide_shape_portion', 'folder', $params{ folder });
 
@@ -4221,7 +4881,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_notes_slide_shape_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portion', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_notes_slide_shape_portion', 'storage', $params{ storage });
     $utils->initialize('get_notes_slide_shape_portion', 'storage', $params{ storage });
 
@@ -4239,7 +4899,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_notes_slide_shape_portions test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $utils->initialize('get_notes_slide_shape_portions', '');
     eval {
         my $result = $utils->{api}->get_notes_slide_shape_portions(%params);
@@ -4251,7 +4911,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'name', $params{ name });
     $utils->initialize('get_notes_slide_shape_portions', 'name', $params{ name });
 
@@ -4266,7 +4926,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'slide_index', $params{ slide_index });
     $utils->initialize('get_notes_slide_shape_portions', 'slide_index', $params{ slide_index });
 
@@ -4281,22 +4941,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'path', $params{ path });
-    $utils->initialize('get_notes_slide_shape_portions', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_notes_slide_shape_portions(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_notes_slide_shape_portions', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_notes_slide_shape_portions', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'shape_index', $params{ shape_index });
     $utils->initialize('get_notes_slide_shape_portions', 'shape_index', $params{ shape_index });
 
@@ -4311,7 +4956,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('get_notes_slide_shape_portions', 'paragraph_index', $params{ paragraph_index });
 
@@ -4326,7 +4971,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'password', $params{ password });
     $utils->initialize('get_notes_slide_shape_portions', 'password', $params{ password });
 
@@ -4341,7 +4986,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'folder', $params{ folder });
     $utils->initialize('get_notes_slide_shape_portions', 'folder', $params{ folder });
 
@@ -4356,7 +5001,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shape_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shape_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_notes_slide_shape_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shape_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shape_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shape_portions', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_notes_slide_shape_portions', 'storage', $params{ storage });
     $utils->initialize('get_notes_slide_shape_portions', 'storage', $params{ storage });
 
@@ -4374,7 +5019,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_notes_slide_shapes test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
     $utils->initialize('get_notes_slide_shapes', '');
     eval {
         my $result = $utils->{api}->get_notes_slide_shapes(%params);
@@ -4386,7 +5031,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_notes_slide_shapes', 'name', $params{ name });
     $utils->initialize('get_notes_slide_shapes', 'name', $params{ name });
 
@@ -4401,7 +5046,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_shapes', 'slide_index', $params{ slide_index });
     $utils->initialize('get_notes_slide_shapes', 'slide_index', $params{ slide_index });
 
@@ -4416,22 +5061,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_notes_slide_shapes', 'path', $params{ path });
-    $utils->initialize('get_notes_slide_shapes', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_notes_slide_shapes(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_notes_slide_shapes', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_notes_slide_shapes', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_notes_slide_shapes', 'password', $params{ password });
     $utils->initialize('get_notes_slide_shapes', 'password', $params{ password });
 
@@ -4446,7 +5076,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_notes_slide_shapes', 'folder', $params{ folder });
     $utils->initialize('get_notes_slide_shapes', 'folder', $params{ folder });
 
@@ -4461,7 +5091,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_notes_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_shapes', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_notes_slide_shapes', 'storage', $params{ storage });
     $utils->initialize('get_notes_slide_shapes', 'storage', $params{ storage });
 
@@ -4629,7 +5259,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_paragraph_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $utils->initialize('get_paragraph_portion', '');
     eval {
         my $result = $utils->{api}->get_paragraph_portion(%params);
@@ -4641,7 +5271,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_paragraph_portion', 'name', $params{ name });
     $utils->initialize('get_paragraph_portion', 'name', $params{ name });
 
@@ -4656,7 +5286,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_paragraph_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('get_paragraph_portion', 'slide_index', $params{ slide_index });
 
@@ -4671,22 +5301,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_paragraph_portion', 'path', $params{ path });
-    $utils->initialize('get_paragraph_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_paragraph_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_paragraph_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_paragraph_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_paragraph_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('get_paragraph_portion', 'shape_index', $params{ shape_index });
 
@@ -4701,7 +5316,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('get_paragraph_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('get_paragraph_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -4716,7 +5331,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ portion_index } = $utils->invalidize_param_value('get_paragraph_portion', 'portion_index', $params{ portion_index });
     $utils->initialize('get_paragraph_portion', 'portion_index', $params{ portion_index });
 
@@ -4731,7 +5346,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_paragraph_portion', 'password', $params{ password });
     $utils->initialize('get_paragraph_portion', 'password', $params{ password });
 
@@ -4746,7 +5361,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_paragraph_portion', 'folder', $params{ folder });
     $utils->initialize('get_paragraph_portion', 'folder', $params{ folder });
 
@@ -4761,7 +5376,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portion', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_paragraph_portion', 'storage', $params{ storage });
     $utils->initialize('get_paragraph_portion', 'storage', $params{ storage });
 
@@ -4779,7 +5394,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_paragraph_portions test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $utils->initialize('get_paragraph_portions', '');
     eval {
         my $result = $utils->{api}->get_paragraph_portions(%params);
@@ -4791,7 +5406,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_paragraph_portions', 'name', $params{ name });
     $utils->initialize('get_paragraph_portions', 'name', $params{ name });
 
@@ -4806,7 +5421,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_paragraph_portions', 'slide_index', $params{ slide_index });
     $utils->initialize('get_paragraph_portions', 'slide_index', $params{ slide_index });
 
@@ -4821,22 +5436,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_paragraph_portions', 'path', $params{ path });
-    $utils->initialize('get_paragraph_portions', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_paragraph_portions(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_paragraph_portions', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_paragraph_portions', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_paragraph_portions', 'shape_index', $params{ shape_index });
     $utils->initialize('get_paragraph_portions', 'shape_index', $params{ shape_index });
 
@@ -4851,7 +5451,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('get_paragraph_portions', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('get_paragraph_portions', 'paragraph_index', $params{ paragraph_index });
 
@@ -4866,7 +5466,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_paragraph_portions', 'password', $params{ password });
     $utils->initialize('get_paragraph_portions', 'password', $params{ password });
 
@@ -4881,7 +5481,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_paragraph_portions', 'folder', $params{ folder });
     $utils->initialize('get_paragraph_portions', 'folder', $params{ folder });
 
@@ -4896,7 +5496,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_paragraph_portions', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_paragraph_portions', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_paragraph_portions', 'storage', $params{ storage });
     $utils->initialize('get_paragraph_portions', 'storage', $params{ storage });
 
@@ -5019,7 +5619,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_slide_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $utils->initialize('get_slide_shape', '');
     eval {
         my $result = $utils->{api}->get_slide_shape(%params);
@@ -5031,7 +5631,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_slide_shape', 'name', $params{ name });
     $utils->initialize('get_slide_shape', 'name', $params{ name });
 
@@ -5046,7 +5646,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_slide_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('get_slide_shape', 'slide_index', $params{ slide_index });
 
@@ -5061,22 +5661,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_slide_shape', 'path', $params{ path });
-    $utils->initialize('get_slide_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_slide_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_slide_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_slide_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_slide_shape', 'shape_index', $params{ shape_index });
     $utils->initialize('get_slide_shape', 'shape_index', $params{ shape_index });
 
@@ -5091,7 +5676,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_slide_shape', 'password', $params{ password });
     $utils->initialize('get_slide_shape', 'password', $params{ password });
 
@@ -5106,7 +5691,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_slide_shape', 'folder', $params{ folder });
     $utils->initialize('get_slide_shape', 'folder', $params{ folder });
 
@@ -5121,7 +5706,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_slide_shape', 'storage', $params{ storage });
     $utils->initialize('get_slide_shape', 'storage', $params{ storage });
 
@@ -5139,7 +5724,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_slide_shape_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $utils->initialize('get_slide_shape_paragraph', '');
     eval {
         my $result = $utils->{api}->get_slide_shape_paragraph(%params);
@@ -5151,7 +5736,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'name', $params{ name });
     $utils->initialize('get_slide_shape_paragraph', 'name', $params{ name });
 
@@ -5166,7 +5751,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('get_slide_shape_paragraph', 'slide_index', $params{ slide_index });
 
@@ -5181,22 +5766,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'path', $params{ path });
-    $utils->initialize('get_slide_shape_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_slide_shape_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_slide_shape_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_slide_shape_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('get_slide_shape_paragraph', 'shape_index', $params{ shape_index });
 
@@ -5211,7 +5781,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('get_slide_shape_paragraph', 'paragraph_index', $params{ paragraph_index });
 
@@ -5226,7 +5796,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'password', $params{ password });
     $utils->initialize('get_slide_shape_paragraph', 'password', $params{ password });
 
@@ -5241,7 +5811,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'folder', $params{ folder });
     $utils->initialize('get_slide_shape_paragraph', 'folder', $params{ folder });
 
@@ -5256,7 +5826,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_shape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraph', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_slide_shape_paragraph', 'storage', $params{ storage });
     $utils->initialize('get_slide_shape_paragraph', 'storage', $params{ storage });
 
@@ -5274,7 +5844,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_slide_shape_paragraphs test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $utils->initialize('get_slide_shape_paragraphs', '');
     eval {
         my $result = $utils->{api}->get_slide_shape_paragraphs(%params);
@@ -5286,7 +5856,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'name', $params{ name });
     $utils->initialize('get_slide_shape_paragraphs', 'name', $params{ name });
 
@@ -5301,7 +5871,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'slide_index', $params{ slide_index });
     $utils->initialize('get_slide_shape_paragraphs', 'slide_index', $params{ slide_index });
 
@@ -5316,22 +5886,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'path', $params{ path });
-    $utils->initialize('get_slide_shape_paragraphs', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_slide_shape_paragraphs(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_slide_shape_paragraphs', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_slide_shape_paragraphs', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'shape_index', $params{ shape_index });
     $utils->initialize('get_slide_shape_paragraphs', 'shape_index', $params{ shape_index });
 
@@ -5346,7 +5901,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'password', $params{ password });
     $utils->initialize('get_slide_shape_paragraphs', 'password', $params{ password });
 
@@ -5361,7 +5916,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'folder', $params{ folder });
     $utils->initialize('get_slide_shape_paragraphs', 'folder', $params{ folder });
 
@@ -5376,7 +5931,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('get_slide_shape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_shape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shape_paragraphs', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_slide_shape_paragraphs', 'storage', $params{ storage });
     $utils->initialize('get_slide_shape_paragraphs', 'storage', $params{ storage });
 
@@ -5394,7 +5949,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # get_slide_shapes test
 #
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
     $utils->initialize('get_slide_shapes', '');
     eval {
         my $result = $utils->{api}->get_slide_shapes(%params);
@@ -5406,7 +5961,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('get_slide_shapes', 'name', $params{ name });
     $utils->initialize('get_slide_shapes', 'name', $params{ name });
 
@@ -5421,7 +5976,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('get_slide_shapes', 'slide_index', $params{ slide_index });
     $utils->initialize('get_slide_shapes', 'slide_index', $params{ slide_index });
 
@@ -5436,22 +5991,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('get_slide_shapes', 'path', $params{ path });
-    $utils->initialize('get_slide_shapes', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->get_slide_shapes(%params);
-    };
-    if ($@) {
-        $utils->assert_error('get_slide_shapes', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('get_slide_shapes', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('get_slide_shapes', 'password', $params{ password });
     $utils->initialize('get_slide_shapes', 'password', $params{ password });
 
@@ -5466,7 +6006,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('get_slide_shapes', 'folder', $params{ folder });
     $utils->initialize('get_slide_shapes', 'folder', $params{ folder });
 
@@ -5481,7 +6021,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_shapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('get_slide_shapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_shapes', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_shapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_shapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_shapes', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('get_slide_shapes', 'storage', $params{ storage });
     $utils->initialize('get_slide_shapes', 'storage', $params{ storage });
 
@@ -5492,6 +6032,486 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('get_slide_shapes', 'storage', $params{ storage }, $@);
     } else {
         $utils->assert_no_error('get_slide_shapes', 'storage');
+    }
+}
+
+#
+# get_slide_subshape test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $utils->initialize('get_slide_subshape', '');
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        fail("get_slide_subshape raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_slide_subshape', 'name', $params{ name });
+    $utils->initialize('get_slide_subshape', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_slide_subshape', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_slide_subshape', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('get_slide_subshape', 'path', $params{ path });
+    $utils->initialize('get_slide_subshape', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('get_slide_subshape', 'shape_index', $params{ shape_index });
+    $utils->initialize('get_slide_subshape', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_slide_subshape', 'password', $params{ password });
+    $utils->initialize('get_slide_subshape', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_slide_subshape', 'folder', $params{ folder });
+    $utils->initialize('get_slide_subshape', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_slide_subshape', 'storage', $params{ storage });
+    $utils->initialize('get_slide_subshape', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape', 'storage');
+    }
+}
+
+#
+# get_slide_subshape_paragraph test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $utils->initialize('get_slide_subshape_paragraph', '');
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        fail("get_slide_subshape_paragraph raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'name', $params{ name });
+    $utils->initialize('get_slide_subshape_paragraph', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_slide_subshape_paragraph', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'path', $params{ path });
+    $utils->initialize('get_slide_subshape_paragraph', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'shape_index', $params{ shape_index });
+    $utils->initialize('get_slide_subshape_paragraph', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('get_slide_subshape_paragraph', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'password', $params{ password });
+    $utils->initialize('get_slide_subshape_paragraph', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'folder', $params{ folder });
+    $utils->initialize('get_slide_subshape_paragraph', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_slide_subshape_paragraph', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraph', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_slide_subshape_paragraph', 'storage', $params{ storage });
+    $utils->initialize('get_slide_subshape_paragraph', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraph', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraph', 'storage');
+    }
+}
+
+#
+# get_slide_subshape_paragraphs test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $utils->initialize('get_slide_subshape_paragraphs', '');
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        fail("get_slide_subshape_paragraphs raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'name', $params{ name });
+    $utils->initialize('get_slide_subshape_paragraphs', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_slide_subshape_paragraphs', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'path', $params{ path });
+    $utils->initialize('get_slide_subshape_paragraphs', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'shape_index', $params{ shape_index });
+    $utils->initialize('get_slide_subshape_paragraphs', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'password', $params{ password });
+    $utils->initialize('get_slide_subshape_paragraphs', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'folder', $params{ folder });
+    $utils->initialize('get_slide_subshape_paragraphs', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshape_paragraphs', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshape_paragraphs', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_slide_subshape_paragraphs', 'shape_index', 'int'), 'password' => $utils->get_param_value('get_slide_subshape_paragraphs', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshape_paragraphs', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshape_paragraphs', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_slide_subshape_paragraphs', 'storage', $params{ storage });
+    $utils->initialize('get_slide_subshape_paragraphs', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshape_paragraphs(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshape_paragraphs', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshape_paragraphs', 'storage');
+    }
+}
+
+#
+# get_slide_subshapes test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $utils->initialize('get_slide_subshapes', '');
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        fail("get_slide_subshapes raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_slide_subshapes', 'name', $params{ name });
+    $utils->initialize('get_slide_subshapes', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshapes', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshapes', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_slide_subshapes', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_slide_subshapes', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshapes', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshapes', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('get_slide_subshapes', 'path', $params{ path });
+    $utils->initialize('get_slide_subshapes', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshapes', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshapes', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_slide_subshapes', 'password', $params{ password });
+    $utils->initialize('get_slide_subshapes', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshapes', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshapes', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_slide_subshapes', 'folder', $params{ folder });
+    $utils->initialize('get_slide_subshapes', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshapes', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshapes', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_slide_subshapes', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_subshapes', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_slide_subshapes', 'path', 'string'), 'password' => $utils->get_param_value('get_slide_subshapes', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_subshapes', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_subshapes', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_slide_subshapes', 'storage', $params{ storage });
+    $utils->initialize('get_slide_subshapes', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_slide_subshapes(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_subshapes', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_subshapes', 'storage');
     }
 }
 
@@ -7281,6 +8301,291 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# get_subshape_paragraph_portion test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $utils->initialize('get_subshape_paragraph_portion', '');
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        fail("get_subshape_paragraph_portion raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'name', $params{ name });
+    $utils->initialize('get_subshape_paragraph_portion', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_subshape_paragraph_portion', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'path', $params{ path });
+    $utils->initialize('get_subshape_paragraph_portion', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'shape_index', $params{ shape_index });
+    $utils->initialize('get_subshape_paragraph_portion', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('get_subshape_paragraph_portion', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ portion_index } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'portion_index', $params{ portion_index });
+    $utils->initialize('get_subshape_paragraph_portion', 'portion_index', $params{ portion_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'portion_index', $params{ portion_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'portion_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'password', $params{ password });
+    $utils->initialize('get_subshape_paragraph_portion', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'folder', $params{ folder });
+    $utils->initialize('get_subshape_paragraph_portion', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('get_subshape_paragraph_portion', 'portion_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portion', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portion', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_subshape_paragraph_portion', 'storage', $params{ storage });
+    $utils->initialize('get_subshape_paragraph_portion', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portion', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portion', 'storage');
+    }
+}
+
+#
+# get_subshape_paragraph_portions test
+#
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $utils->initialize('get_subshape_paragraph_portions', '');
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        fail("get_subshape_paragraph_portions raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'name', $params{ name });
+    $utils->initialize('get_subshape_paragraph_portions', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_subshape_paragraph_portions', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'path', $params{ path });
+    $utils->initialize('get_subshape_paragraph_portions', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'shape_index', $params{ shape_index });
+    $utils->initialize('get_subshape_paragraph_portions', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('get_subshape_paragraph_portions', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'password', $params{ password });
+    $utils->initialize('get_subshape_paragraph_portions', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'folder', $params{ folder });
+    $utils->initialize('get_subshape_paragraph_portions', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('get_subshape_paragraph_portions', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'slide_index', 'int'), 'path' => $utils->get_param_value('get_subshape_paragraph_portions', 'path', 'string'), 'shape_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('get_subshape_paragraph_portions', 'paragraph_index', 'int'), 'password' => $utils->get_param_value('get_subshape_paragraph_portions', 'password', 'string'), 'folder' => $utils->get_param_value('get_subshape_paragraph_portions', 'folder', 'string'), 'storage' => $utils->get_param_value('get_subshape_paragraph_portions', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_subshape_paragraph_portions', 'storage', $params{ storage });
+    $utils->initialize('get_subshape_paragraph_portions', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_subshape_paragraph_portions(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_subshape_paragraph_portions', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_subshape_paragraph_portions', 'storage');
+    }
+}
+
+#
 # move_file test
 #
 {
@@ -7509,7 +8814,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_add_new_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $utils->initialize('post_add_new_paragraph', '');
     eval {
         my $result = $utils->{api}->post_add_new_paragraph(%params);
@@ -7521,7 +8826,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ name } = $utils->invalidize_param_value('post_add_new_paragraph', 'name', $params{ name });
     $utils->initialize('post_add_new_paragraph', 'name', $params{ name });
 
@@ -7536,7 +8841,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ slide_index } = $utils->invalidize_param_value('post_add_new_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('post_add_new_paragraph', 'slide_index', $params{ slide_index });
 
@@ -7551,22 +8856,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
-    $params{ path } = $utils->invalidize_param_value('post_add_new_paragraph', 'path', $params{ path });
-    $utils->initialize('post_add_new_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_add_new_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_add_new_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_add_new_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ shape_index } = $utils->invalidize_param_value('post_add_new_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('post_add_new_paragraph', 'shape_index', $params{ shape_index });
 
@@ -7581,7 +8871,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ dto } = $utils->invalidize_param_value('post_add_new_paragraph', 'dto', $params{ dto });
     $utils->initialize('post_add_new_paragraph', 'dto', $params{ dto });
 
@@ -7596,7 +8886,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ password } = $utils->invalidize_param_value('post_add_new_paragraph', 'password', $params{ password });
     $utils->initialize('post_add_new_paragraph', 'password', $params{ password });
 
@@ -7611,7 +8901,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ folder } = $utils->invalidize_param_value('post_add_new_paragraph', 'folder', $params{ folder });
     $utils->initialize('post_add_new_paragraph', 'folder', $params{ folder });
 
@@ -7626,7 +8916,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ storage } = $utils->invalidize_param_value('post_add_new_paragraph', 'storage', $params{ storage });
     $utils->initialize('post_add_new_paragraph', 'storage', $params{ storage });
 
@@ -7641,7 +8931,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_paragraph', 'position', 'int'));
     $params{ position } = $utils->invalidize_param_value('post_add_new_paragraph', 'position', $params{ position });
     $utils->initialize('post_add_new_paragraph', 'position', $params{ position });
 
@@ -7659,7 +8949,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_add_new_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $utils->initialize('post_add_new_portion', '');
     eval {
         my $result = $utils->{api}->post_add_new_portion(%params);
@@ -7671,7 +8961,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ name } = $utils->invalidize_param_value('post_add_new_portion', 'name', $params{ name });
     $utils->initialize('post_add_new_portion', 'name', $params{ name });
 
@@ -7686,7 +8976,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ slide_index } = $utils->invalidize_param_value('post_add_new_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('post_add_new_portion', 'slide_index', $params{ slide_index });
 
@@ -7701,22 +8991,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
-    $params{ path } = $utils->invalidize_param_value('post_add_new_portion', 'path', $params{ path });
-    $utils->initialize('post_add_new_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_add_new_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_add_new_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_add_new_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ shape_index } = $utils->invalidize_param_value('post_add_new_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('post_add_new_portion', 'shape_index', $params{ shape_index });
 
@@ -7731,7 +9006,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ paragraph_index } = $utils->invalidize_param_value('post_add_new_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('post_add_new_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -7746,7 +9021,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ dto } = $utils->invalidize_param_value('post_add_new_portion', 'dto', $params{ dto });
     $utils->initialize('post_add_new_portion', 'dto', $params{ dto });
 
@@ -7761,7 +9036,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ password } = $utils->invalidize_param_value('post_add_new_portion', 'password', $params{ password });
     $utils->initialize('post_add_new_portion', 'password', $params{ password });
 
@@ -7776,7 +9051,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ folder } = $utils->invalidize_param_value('post_add_new_portion', 'folder', $params{ folder });
     $utils->initialize('post_add_new_portion', 'folder', $params{ folder });
 
@@ -7791,7 +9066,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ storage } = $utils->invalidize_param_value('post_add_new_portion', 'storage', $params{ storage });
     $utils->initialize('post_add_new_portion', 'storage', $params{ storage });
 
@@ -7806,7 +9081,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_portion', 'position', 'int'));
     $params{ position } = $utils->invalidize_param_value('post_add_new_portion', 'position', $params{ position });
     $utils->initialize('post_add_new_portion', 'position', $params{ position });
 
@@ -7824,7 +9099,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_add_new_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $utils->initialize('post_add_new_shape', '');
     eval {
         my $result = $utils->{api}->post_add_new_shape(%params);
@@ -7836,7 +9111,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ name } = $utils->invalidize_param_value('post_add_new_shape', 'name', $params{ name });
     $utils->initialize('post_add_new_shape', 'name', $params{ name });
 
@@ -7851,7 +9126,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ slide_index } = $utils->invalidize_param_value('post_add_new_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('post_add_new_shape', 'slide_index', $params{ slide_index });
 
@@ -7866,22 +9141,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
-    $params{ path } = $utils->invalidize_param_value('post_add_new_shape', 'path', $params{ path });
-    $utils->initialize('post_add_new_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_add_new_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_add_new_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_add_new_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ dto } = $utils->invalidize_param_value('post_add_new_shape', 'dto', $params{ dto });
     $utils->initialize('post_add_new_shape', 'dto', $params{ dto });
 
@@ -7896,7 +9156,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ password } = $utils->invalidize_param_value('post_add_new_shape', 'password', $params{ password });
     $utils->initialize('post_add_new_shape', 'password', $params{ password });
 
@@ -7911,7 +9171,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ folder } = $utils->invalidize_param_value('post_add_new_shape', 'folder', $params{ folder });
     $utils->initialize('post_add_new_shape', 'folder', $params{ folder });
 
@@ -7926,7 +9186,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ storage } = $utils->invalidize_param_value('post_add_new_shape', 'storage', $params{ storage });
     $utils->initialize('post_add_new_shape', 'storage', $params{ storage });
 
@@ -7941,7 +9201,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ shape_to_clone } = $utils->invalidize_param_value('post_add_new_shape', 'shape_to_clone', $params{ shape_to_clone });
     $utils->initialize('post_add_new_shape', 'shape_to_clone', $params{ shape_to_clone });
 
@@ -7956,7 +9216,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_shape', 'position', 'int'));
     $params{ position } = $utils->invalidize_param_value('post_add_new_shape', 'position', $params{ position });
     $utils->initialize('post_add_new_shape', 'position', $params{ position });
 
@@ -7967,6 +9227,471 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('post_add_new_shape', 'position', $params{ position }, $@);
     } else {
         $utils->assert_no_error('post_add_new_shape', 'position');
+    }
+}
+
+#
+# post_add_new_subshape test
+#
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $utils->initialize('post_add_new_subshape', '');
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        fail("post_add_new_subshape raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ name } = $utils->invalidize_param_value('post_add_new_subshape', 'name', $params{ name });
+    $utils->initialize('post_add_new_subshape', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_add_new_subshape', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_add_new_subshape', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ path } = $utils->invalidize_param_value('post_add_new_subshape', 'path', $params{ path });
+    $utils->initialize('post_add_new_subshape', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ dto } = $utils->invalidize_param_value('post_add_new_subshape', 'dto', $params{ dto });
+    $utils->initialize('post_add_new_subshape', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ password } = $utils->invalidize_param_value('post_add_new_subshape', 'password', $params{ password });
+    $utils->initialize('post_add_new_subshape', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ folder } = $utils->invalidize_param_value('post_add_new_subshape', 'folder', $params{ folder });
+    $utils->initialize('post_add_new_subshape', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ storage } = $utils->invalidize_param_value('post_add_new_subshape', 'storage', $params{ storage });
+    $utils->initialize('post_add_new_subshape', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'storage');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ shape_to_clone } = $utils->invalidize_param_value('post_add_new_subshape', 'shape_to_clone', $params{ shape_to_clone });
+    $utils->initialize('post_add_new_subshape', 'shape_to_clone', $params{ shape_to_clone });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'shape_to_clone', $params{ shape_to_clone }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'shape_to_clone');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape', 'path', 'string'), 'dto' => $utils->get_param_value('post_add_new_subshape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_add_new_subshape', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_add_new_subshape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_add_new_subshape', 'position', 'int'));
+    $params{ position } = $utils->invalidize_param_value('post_add_new_subshape', 'position', $params{ position });
+    $utils->initialize('post_add_new_subshape', 'position', $params{ position });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape', 'position', $params{ position }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape', 'position');
+    }
+}
+
+#
+# post_add_new_subshape_paragraph test
+#
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $utils->initialize('post_add_new_subshape_paragraph', '');
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        fail("post_add_new_subshape_paragraph raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ name } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'name', $params{ name });
+    $utils->initialize('post_add_new_subshape_paragraph', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_add_new_subshape_paragraph', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ path } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'path', $params{ path });
+    $utils->initialize('post_add_new_subshape_paragraph', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ shape_index } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'shape_index', $params{ shape_index });
+    $utils->initialize('post_add_new_subshape_paragraph', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ dto } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'dto', $params{ dto });
+    $utils->initialize('post_add_new_subshape_paragraph', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ password } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'password', $params{ password });
+    $utils->initialize('post_add_new_subshape_paragraph', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ folder } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'folder', $params{ folder });
+    $utils->initialize('post_add_new_subshape_paragraph', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ storage } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'storage', $params{ storage });
+    $utils->initialize('post_add_new_subshape_paragraph', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'storage');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_add_new_subshape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_paragraph', 'position', 'int'));
+    $params{ position } = $utils->invalidize_param_value('post_add_new_subshape_paragraph', 'position', $params{ position });
+    $utils->initialize('post_add_new_subshape_paragraph', 'position', $params{ position });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_paragraph(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_paragraph', 'position', $params{ position }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_paragraph', 'position');
+    }
+}
+
+#
+# post_add_new_subshape_portion test
+#
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $utils->initialize('post_add_new_subshape_portion', '');
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        fail("post_add_new_subshape_portion raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ name } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'name', $params{ name });
+    $utils->initialize('post_add_new_subshape_portion', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_add_new_subshape_portion', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ path } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'path', $params{ path });
+    $utils->initialize('post_add_new_subshape_portion', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ shape_index } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'shape_index', $params{ shape_index });
+    $utils->initialize('post_add_new_subshape_portion', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('post_add_new_subshape_portion', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ dto } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'dto', $params{ dto });
+    $utils->initialize('post_add_new_subshape_portion', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ password } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'password', $params{ password });
+    $utils->initialize('post_add_new_subshape_portion', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ folder } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'folder', $params{ folder });
+    $utils->initialize('post_add_new_subshape_portion', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ storage } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'storage', $params{ storage });
+    $utils->initialize('post_add_new_subshape_portion', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'storage');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_add_new_subshape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_add_new_subshape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_add_new_subshape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_add_new_subshape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_add_new_subshape_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_add_new_subshape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_add_new_subshape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_add_new_subshape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_add_new_subshape_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_add_new_subshape_portion', 'position', 'int'));
+    $params{ position } = $utils->invalidize_param_value('post_add_new_subshape_portion', 'position', $params{ position });
+    $utils->initialize('post_add_new_subshape_portion', 'position', $params{ position });
+
+    eval {
+        my $result = $utils->{api}->post_add_new_subshape_portion(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_add_new_subshape_portion', 'position', $params{ position }, $@);
+    } else {
+        $utils->assert_no_error('post_add_new_subshape_portion', 'position');
     }
 }
 
@@ -8421,6 +10146,66 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# post_get_notes_slide_exists test
+#
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    $utils->initialize('post_get_notes_slide_exists', '');
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        fail("post_get_notes_slide_exists raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_get_notes_slide_exists', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_exists', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_exists', 'slide_index');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    $params{ document } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'document', $params{ document });
+    $utils->initialize('post_get_notes_slide_exists', 'document', $params{ document });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_exists', 'document', $params{ document }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_exists', 'document');
+    }
+}
+
+{
+    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'password', $params{ password });
+    $utils->initialize('post_get_notes_slide_exists', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_exists', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_exists', 'password');
+    }
+}
+
+#
 # post_get_notes_slide_with_format test
 #
 {
@@ -8544,7 +10329,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_notes_slide_add_new_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $utils->initialize('post_notes_slide_add_new_paragraph', '');
     eval {
         my $result = $utils->{api}->post_notes_slide_add_new_paragraph(%params);
@@ -8556,7 +10341,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ name } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'name', $params{ name });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'name', $params{ name });
 
@@ -8571,7 +10356,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ slide_index } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'slide_index', $params{ slide_index });
 
@@ -8586,22 +10371,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
-    $params{ path } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'path', $params{ path });
-    $utils->initialize('post_notes_slide_add_new_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_notes_slide_add_new_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_notes_slide_add_new_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_notes_slide_add_new_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ shape_index } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'shape_index', $params{ shape_index });
 
@@ -8616,7 +10386,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ dto } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'dto', $params{ dto });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'dto', $params{ dto });
 
@@ -8631,7 +10401,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ password } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'password', $params{ password });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'password', $params{ password });
 
@@ -8646,7 +10416,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ folder } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'folder', $params{ folder });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'folder', $params{ folder });
 
@@ -8661,7 +10431,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ storage } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'storage', $params{ storage });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'storage', $params{ storage });
 
@@ -8676,7 +10446,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'shape_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_paragraph', 'position', 'int'));
     $params{ position } = $utils->invalidize_param_value('post_notes_slide_add_new_paragraph', 'position', $params{ position });
     $utils->initialize('post_notes_slide_add_new_paragraph', 'position', $params{ position });
 
@@ -8694,7 +10464,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_notes_slide_add_new_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $utils->initialize('post_notes_slide_add_new_portion', '');
     eval {
         my $result = $utils->{api}->post_notes_slide_add_new_portion(%params);
@@ -8706,7 +10476,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ name } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'name', $params{ name });
     $utils->initialize('post_notes_slide_add_new_portion', 'name', $params{ name });
 
@@ -8721,7 +10491,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ slide_index } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('post_notes_slide_add_new_portion', 'slide_index', $params{ slide_index });
 
@@ -8736,22 +10506,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
-    $params{ path } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'path', $params{ path });
-    $utils->initialize('post_notes_slide_add_new_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_notes_slide_add_new_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_notes_slide_add_new_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_notes_slide_add_new_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ shape_index } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('post_notes_slide_add_new_portion', 'shape_index', $params{ shape_index });
 
@@ -8766,7 +10521,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ paragraph_index } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('post_notes_slide_add_new_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -8781,7 +10536,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ dto } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'dto', $params{ dto });
     $utils->initialize('post_notes_slide_add_new_portion', 'dto', $params{ dto });
 
@@ -8796,7 +10551,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ password } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'password', $params{ password });
     $utils->initialize('post_notes_slide_add_new_portion', 'password', $params{ password });
 
@@ -8811,7 +10566,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ folder } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'folder', $params{ folder });
     $utils->initialize('post_notes_slide_add_new_portion', 'folder', $params{ folder });
 
@@ -8826,7 +10581,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ storage } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'storage', $params{ storage });
     $utils->initialize('post_notes_slide_add_new_portion', 'storage', $params{ storage });
 
@@ -8841,7 +10596,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('post_notes_slide_add_new_portion', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('post_notes_slide_add_new_portion', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_portion', 'storage', 'string'), 'position' => $utils->get_param_value('post_notes_slide_add_new_portion', 'position', 'int'));
     $params{ position } = $utils->invalidize_param_value('post_notes_slide_add_new_portion', 'position', $params{ position });
     $utils->initialize('post_notes_slide_add_new_portion', 'position', $params{ position });
 
@@ -8859,7 +10614,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_notes_slide_add_new_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $utils->initialize('post_notes_slide_add_new_shape', '');
     eval {
         my $result = $utils->{api}->post_notes_slide_add_new_shape(%params);
@@ -8871,7 +10626,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ name } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'name', $params{ name });
     $utils->initialize('post_notes_slide_add_new_shape', 'name', $params{ name });
 
@@ -8886,7 +10641,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ slide_index } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('post_notes_slide_add_new_shape', 'slide_index', $params{ slide_index });
 
@@ -8901,22 +10656,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
-    $params{ path } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'path', $params{ path });
-    $utils->initialize('post_notes_slide_add_new_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_notes_slide_add_new_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_notes_slide_add_new_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_notes_slide_add_new_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ dto } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'dto', $params{ dto });
     $utils->initialize('post_notes_slide_add_new_shape', 'dto', $params{ dto });
 
@@ -8931,7 +10671,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ password } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'password', $params{ password });
     $utils->initialize('post_notes_slide_add_new_shape', 'password', $params{ password });
 
@@ -8946,7 +10686,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ folder } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'folder', $params{ folder });
     $utils->initialize('post_notes_slide_add_new_shape', 'folder', $params{ folder });
 
@@ -8961,7 +10701,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ storage } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'storage', $params{ storage });
     $utils->initialize('post_notes_slide_add_new_shape', 'storage', $params{ storage });
 
@@ -8976,7 +10716,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ shape_to_clone } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', $params{ shape_to_clone });
     $utils->initialize('post_notes_slide_add_new_shape', 'shape_to_clone', $params{ shape_to_clone });
 
@@ -8991,7 +10731,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_add_new_shape', 'path', 'string'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_add_new_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_add_new_shape', 'slide_index', 'int'), 'dto' => $utils->get_param_value('post_notes_slide_add_new_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('post_notes_slide_add_new_shape', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_add_new_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_add_new_shape', 'storage', 'string'), 'shape_to_clone' => $utils->get_param_value('post_notes_slide_add_new_shape', 'shape_to_clone', 'int'), 'position' => $utils->get_param_value('post_notes_slide_add_new_shape', 'position', 'int'));
     $params{ position } = $utils->invalidize_param_value('post_notes_slide_add_new_shape', 'position', $params{ position });
     $utils->initialize('post_notes_slide_add_new_shape', 'position', $params{ position });
 
@@ -9009,7 +10749,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_notes_slide_shape_save_as test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $utils->initialize('post_notes_slide_shape_save_as', '');
     eval {
         my $result = $utils->{api}->post_notes_slide_shape_save_as(%params);
@@ -9021,7 +10761,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ name } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'name', $params{ name });
     $utils->initialize('post_notes_slide_shape_save_as', 'name', $params{ name });
 
@@ -9036,7 +10776,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'slide_index', $params{ slide_index });
     $utils->initialize('post_notes_slide_shape_save_as', 'slide_index', $params{ slide_index });
 
@@ -9051,22 +10791,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
-    $params{ path } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'path', $params{ path });
-    $utils->initialize('post_notes_slide_shape_save_as', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_notes_slide_shape_save_as(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_notes_slide_shape_save_as', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_notes_slide_shape_save_as', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'shape_index', $params{ shape_index });
     $utils->initialize('post_notes_slide_shape_save_as', 'shape_index', $params{ shape_index });
 
@@ -9081,7 +10806,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ format } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'format', $params{ format });
     $utils->initialize('post_notes_slide_shape_save_as', 'format', $params{ format });
 
@@ -9096,7 +10821,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ options } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'options', $params{ options });
     $utils->initialize('post_notes_slide_shape_save_as', 'options', $params{ options });
 
@@ -9111,7 +10836,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'password', $params{ password });
     $utils->initialize('post_notes_slide_shape_save_as', 'password', $params{ password });
 
@@ -9126,7 +10851,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ folder } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'folder', $params{ folder });
     $utils->initialize('post_notes_slide_shape_save_as', 'folder', $params{ folder });
 
@@ -9141,7 +10866,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ storage } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'storage', $params{ storage });
     $utils->initialize('post_notes_slide_shape_save_as', 'storage', $params{ storage });
 
@@ -9156,7 +10881,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_x } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'scale_x', $params{ scale_x });
     $utils->initialize('post_notes_slide_shape_save_as', 'scale_x', $params{ scale_x });
 
@@ -9171,7 +10896,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_y } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'scale_y', $params{ scale_y });
     $utils->initialize('post_notes_slide_shape_save_as', 'scale_y', $params{ scale_y });
 
@@ -9186,7 +10911,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ bounds } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'bounds', $params{ bounds });
     $utils->initialize('post_notes_slide_shape_save_as', 'bounds', $params{ bounds });
 
@@ -9201,7 +10926,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_notes_slide_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('post_notes_slide_shape_save_as', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('post_notes_slide_shape_save_as', 'fonts_folder', $params{ fonts_folder });
 
@@ -9309,7 +11034,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # post_shape_save_as test
 #
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $utils->initialize('post_shape_save_as', '');
     eval {
         my $result = $utils->{api}->post_shape_save_as(%params);
@@ -9321,7 +11046,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ name } = $utils->invalidize_param_value('post_shape_save_as', 'name', $params{ name });
     $utils->initialize('post_shape_save_as', 'name', $params{ name });
 
@@ -9336,7 +11061,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('post_shape_save_as', 'slide_index', $params{ slide_index });
     $utils->initialize('post_shape_save_as', 'slide_index', $params{ slide_index });
 
@@ -9351,22 +11076,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
-    $params{ path } = $utils->invalidize_param_value('post_shape_save_as', 'path', $params{ path });
-    $utils->initialize('post_shape_save_as', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->post_shape_save_as(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_shape_save_as', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('post_shape_save_as', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('post_shape_save_as', 'shape_index', $params{ shape_index });
     $utils->initialize('post_shape_save_as', 'shape_index', $params{ shape_index });
 
@@ -9381,7 +11091,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ format } = $utils->invalidize_param_value('post_shape_save_as', 'format', $params{ format });
     $utils->initialize('post_shape_save_as', 'format', $params{ format });
 
@@ -9396,7 +11106,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ options } = $utils->invalidize_param_value('post_shape_save_as', 'options', $params{ options });
     $utils->initialize('post_shape_save_as', 'options', $params{ options });
 
@@ -9411,7 +11121,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('post_shape_save_as', 'password', $params{ password });
     $utils->initialize('post_shape_save_as', 'password', $params{ password });
 
@@ -9426,7 +11136,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ folder } = $utils->invalidize_param_value('post_shape_save_as', 'folder', $params{ folder });
     $utils->initialize('post_shape_save_as', 'folder', $params{ folder });
 
@@ -9441,7 +11151,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ storage } = $utils->invalidize_param_value('post_shape_save_as', 'storage', $params{ storage });
     $utils->initialize('post_shape_save_as', 'storage', $params{ storage });
 
@@ -9456,7 +11166,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_x } = $utils->invalidize_param_value('post_shape_save_as', 'scale_x', $params{ scale_x });
     $utils->initialize('post_shape_save_as', 'scale_x', $params{ scale_x });
 
@@ -9471,7 +11181,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_y } = $utils->invalidize_param_value('post_shape_save_as', 'scale_y', $params{ scale_y });
     $utils->initialize('post_shape_save_as', 'scale_y', $params{ scale_y });
 
@@ -9486,7 +11196,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ bounds } = $utils->invalidize_param_value('post_shape_save_as', 'bounds', $params{ bounds });
     $utils->initialize('post_shape_save_as', 'bounds', $params{ bounds });
 
@@ -9501,7 +11211,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('post_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_shape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_shape_save_as', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('post_shape_save_as', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('post_shape_save_as', 'fonts_folder', $params{ fonts_folder });
 
@@ -11706,6 +13416,216 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# post_subshape_save_as test
+#
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $utils->initialize('post_subshape_save_as', '');
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        fail("post_subshape_save_as raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ name } = $utils->invalidize_param_value('post_subshape_save_as', 'name', $params{ name });
+    $utils->initialize('post_subshape_save_as', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_subshape_save_as', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_subshape_save_as', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ path } = $utils->invalidize_param_value('post_subshape_save_as', 'path', $params{ path });
+    $utils->initialize('post_subshape_save_as', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('post_subshape_save_as', 'shape_index', $params{ shape_index });
+    $utils->initialize('post_subshape_save_as', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ format } = $utils->invalidize_param_value('post_subshape_save_as', 'format', $params{ format });
+    $utils->initialize('post_subshape_save_as', 'format', $params{ format });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'format', $params{ format }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'format');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ options } = $utils->invalidize_param_value('post_subshape_save_as', 'options', $params{ options });
+    $utils->initialize('post_subshape_save_as', 'options', $params{ options });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'options', $params{ options }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'options');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_subshape_save_as', 'password', $params{ password });
+    $utils->initialize('post_subshape_save_as', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('post_subshape_save_as', 'folder', $params{ folder });
+    $utils->initialize('post_subshape_save_as', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('post_subshape_save_as', 'storage', $params{ storage });
+    $utils->initialize('post_subshape_save_as', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'storage');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ scale_x } = $utils->invalidize_param_value('post_subshape_save_as', 'scale_x', $params{ scale_x });
+    $utils->initialize('post_subshape_save_as', 'scale_x', $params{ scale_x });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'scale_x', $params{ scale_x }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'scale_x');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ scale_y } = $utils->invalidize_param_value('post_subshape_save_as', 'scale_y', $params{ scale_y });
+    $utils->initialize('post_subshape_save_as', 'scale_y', $params{ scale_y });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'scale_y', $params{ scale_y }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'scale_y');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ bounds } = $utils->invalidize_param_value('post_subshape_save_as', 'bounds', $params{ bounds });
+    $utils->initialize('post_subshape_save_as', 'bounds', $params{ bounds });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'bounds', $params{ bounds }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'bounds');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('post_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('post_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('post_subshape_save_as', 'format', 'string'), 'options' => $utils->get_param_value('post_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('post_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('post_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('post_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('post_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('post_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('post_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('post_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ fonts_folder } = $utils->invalidize_param_value('post_subshape_save_as', 'fonts_folder', $params{ fonts_folder });
+    $utils->initialize('post_subshape_save_as', 'fonts_folder', $params{ fonts_folder });
+
+    eval {
+        my $result = $utils->{api}->post_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_subshape_save_as', 'fonts_folder', $params{ fonts_folder }, $@);
+    } else {
+        $utils->assert_no_error('post_subshape_save_as', 'fonts_folder');
+    }
+}
+
+#
 # put_layout_slide test
 #
 {
@@ -11814,7 +13734,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_notes_slide_shape_save_as test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $utils->initialize('put_notes_slide_shape_save_as', '');
     eval {
         my $result = $utils->{api}->put_notes_slide_shape_save_as(%params);
@@ -11826,7 +13746,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'name', $params{ name });
     $utils->initialize('put_notes_slide_shape_save_as', 'name', $params{ name });
 
@@ -11841,7 +13761,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'slide_index', $params{ slide_index });
     $utils->initialize('put_notes_slide_shape_save_as', 'slide_index', $params{ slide_index });
 
@@ -11856,22 +13776,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'path', $params{ path });
-    $utils->initialize('put_notes_slide_shape_save_as', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_notes_slide_shape_save_as(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_notes_slide_shape_save_as', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_notes_slide_shape_save_as', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'shape_index', $params{ shape_index });
     $utils->initialize('put_notes_slide_shape_save_as', 'shape_index', $params{ shape_index });
 
@@ -11886,7 +13791,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ format } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'format', $params{ format });
     $utils->initialize('put_notes_slide_shape_save_as', 'format', $params{ format });
 
@@ -11901,7 +13806,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ out_path } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'out_path', $params{ out_path });
     $utils->initialize('put_notes_slide_shape_save_as', 'out_path', $params{ out_path });
 
@@ -11916,7 +13821,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ options } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'options', $params{ options });
     $utils->initialize('put_notes_slide_shape_save_as', 'options', $params{ options });
 
@@ -11931,7 +13836,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'password', $params{ password });
     $utils->initialize('put_notes_slide_shape_save_as', 'password', $params{ password });
 
@@ -11946,7 +13851,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'folder', $params{ folder });
     $utils->initialize('put_notes_slide_shape_save_as', 'folder', $params{ folder });
 
@@ -11961,7 +13866,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'storage', $params{ storage });
     $utils->initialize('put_notes_slide_shape_save_as', 'storage', $params{ storage });
 
@@ -11976,7 +13881,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_x } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'scale_x', $params{ scale_x });
     $utils->initialize('put_notes_slide_shape_save_as', 'scale_x', $params{ scale_x });
 
@@ -11991,7 +13896,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_y } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'scale_y', $params{ scale_y });
     $utils->initialize('put_notes_slide_shape_save_as', 'scale_y', $params{ scale_y });
 
@@ -12006,7 +13911,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ bounds } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'bounds', $params{ bounds });
     $utils->initialize('put_notes_slide_shape_save_as', 'bounds', $params{ bounds });
 
@@ -12021,7 +13926,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_notes_slide_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_notes_slide_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_notes_slide_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_notes_slide_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_notes_slide_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_notes_slide_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_notes_slide_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_notes_slide_shape_save_as', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('put_notes_slide_shape_save_as', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('put_notes_slide_shape_save_as', 'fonts_folder', $params{ fonts_folder });
 
@@ -12129,7 +14034,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_set_paragraph_portion_properties test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $utils->initialize('put_set_paragraph_portion_properties', '');
     eval {
         my $result = $utils->{api}->put_set_paragraph_portion_properties(%params);
@@ -12141,7 +14046,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'name', $params{ name });
     $utils->initialize('put_set_paragraph_portion_properties', 'name', $params{ name });
 
@@ -12156,7 +14061,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'slide_index', $params{ slide_index });
     $utils->initialize('put_set_paragraph_portion_properties', 'slide_index', $params{ slide_index });
 
@@ -12171,22 +14076,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'path', $params{ path });
-    $utils->initialize('put_set_paragraph_portion_properties', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_set_paragraph_portion_properties(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_set_paragraph_portion_properties', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_set_paragraph_portion_properties', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'shape_index', $params{ shape_index });
     $utils->initialize('put_set_paragraph_portion_properties', 'shape_index', $params{ shape_index });
 
@@ -12201,7 +14091,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('put_set_paragraph_portion_properties', 'paragraph_index', $params{ paragraph_index });
 
@@ -12216,7 +14106,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ portion_index } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'portion_index', $params{ portion_index });
     $utils->initialize('put_set_paragraph_portion_properties', 'portion_index', $params{ portion_index });
 
@@ -12231,7 +14121,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ dto } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'dto', $params{ dto });
     $utils->initialize('put_set_paragraph_portion_properties', 'dto', $params{ dto });
 
@@ -12246,7 +14136,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'password', $params{ password });
     $utils->initialize('put_set_paragraph_portion_properties', 'password', $params{ password });
 
@@ -12261,7 +14151,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'folder', $params{ folder });
     $utils->initialize('put_set_paragraph_portion_properties', 'folder', $params{ folder });
 
@@ -12276,7 +14166,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_portion_properties', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_set_paragraph_portion_properties', 'storage', $params{ storage });
     $utils->initialize('put_set_paragraph_portion_properties', 'storage', $params{ storage });
 
@@ -12294,7 +14184,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_set_paragraph_properties test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $utils->initialize('put_set_paragraph_properties', '');
     eval {
         my $result = $utils->{api}->put_set_paragraph_properties(%params);
@@ -12306,7 +14196,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_set_paragraph_properties', 'name', $params{ name });
     $utils->initialize('put_set_paragraph_properties', 'name', $params{ name });
 
@@ -12321,7 +14211,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_set_paragraph_properties', 'slide_index', $params{ slide_index });
     $utils->initialize('put_set_paragraph_properties', 'slide_index', $params{ slide_index });
 
@@ -12336,22 +14226,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_set_paragraph_properties', 'path', $params{ path });
-    $utils->initialize('put_set_paragraph_properties', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_set_paragraph_properties(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_set_paragraph_properties', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_set_paragraph_properties', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_set_paragraph_properties', 'shape_index', $params{ shape_index });
     $utils->initialize('put_set_paragraph_properties', 'shape_index', $params{ shape_index });
 
@@ -12366,7 +14241,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('put_set_paragraph_properties', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('put_set_paragraph_properties', 'paragraph_index', $params{ paragraph_index });
 
@@ -12381,7 +14256,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ dto } = $utils->invalidize_param_value('put_set_paragraph_properties', 'dto', $params{ dto });
     $utils->initialize('put_set_paragraph_properties', 'dto', $params{ dto });
 
@@ -12396,7 +14271,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_set_paragraph_properties', 'password', $params{ password });
     $utils->initialize('put_set_paragraph_properties', 'password', $params{ password });
 
@@ -12411,7 +14286,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_set_paragraph_properties', 'folder', $params{ folder });
     $utils->initialize('put_set_paragraph_properties', 'folder', $params{ folder });
 
@@ -12426,7 +14301,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_set_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_paragraph_properties', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_set_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_paragraph_properties', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_set_paragraph_properties', 'storage', $params{ storage });
     $utils->initialize('put_set_paragraph_properties', 'storage', $params{ storage });
 
@@ -12441,10 +14316,325 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# put_set_subshape_paragraph_portion_properties test
+#
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', '');
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        fail("put_set_subshape_paragraph_portion_properties raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'name', $params{ name });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'path', $params{ path });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', $params{ shape_index });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ portion_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', $params{ portion_index });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'portion_index', $params{ portion_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'portion_index', $params{ portion_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'portion_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'dto', $params{ dto });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'password', $params{ password });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'folder', $params{ folder });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_portion_properties', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_set_subshape_paragraph_portion_properties', 'storage', $params{ storage });
+    $utils->initialize('put_set_subshape_paragraph_portion_properties', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_portion_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_portion_properties', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_portion_properties', 'storage');
+    }
+}
+
+#
+# put_set_subshape_paragraph_properties test
+#
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $utils->initialize('put_set_subshape_paragraph_properties', '');
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        fail("put_set_subshape_paragraph_properties raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'name', $params{ name });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'path', $params{ path });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'shape_index', $params{ shape_index });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ paragraph_index } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', $params{ paragraph_index });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'paragraph_index', $params{ paragraph_index });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'paragraph_index', $params{ paragraph_index }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'paragraph_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'dto', $params{ dto });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'password', $params{ password });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'folder', $params{ folder });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'password', 'string'), 'folder' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'folder', 'string'), 'storage' => $utils->get_param_value('put_set_subshape_paragraph_properties', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_set_subshape_paragraph_properties', 'storage', $params{ storage });
+    $utils->initialize('put_set_subshape_paragraph_properties', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_set_subshape_paragraph_properties(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_set_subshape_paragraph_properties', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_set_subshape_paragraph_properties', 'storage');
+    }
+}
+
+#
 # put_shape_save_as test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $utils->initialize('put_shape_save_as', '');
     eval {
         my $result = $utils->{api}->put_shape_save_as(%params);
@@ -12456,7 +14646,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_shape_save_as', 'name', $params{ name });
     $utils->initialize('put_shape_save_as', 'name', $params{ name });
 
@@ -12471,7 +14661,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_shape_save_as', 'slide_index', $params{ slide_index });
     $utils->initialize('put_shape_save_as', 'slide_index', $params{ slide_index });
 
@@ -12486,22 +14676,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_shape_save_as', 'path', $params{ path });
-    $utils->initialize('put_shape_save_as', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_shape_save_as(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_shape_save_as', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_shape_save_as', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_shape_save_as', 'shape_index', $params{ shape_index });
     $utils->initialize('put_shape_save_as', 'shape_index', $params{ shape_index });
 
@@ -12516,7 +14691,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ format } = $utils->invalidize_param_value('put_shape_save_as', 'format', $params{ format });
     $utils->initialize('put_shape_save_as', 'format', $params{ format });
 
@@ -12531,7 +14706,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ out_path } = $utils->invalidize_param_value('put_shape_save_as', 'out_path', $params{ out_path });
     $utils->initialize('put_shape_save_as', 'out_path', $params{ out_path });
 
@@ -12546,7 +14721,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ options } = $utils->invalidize_param_value('put_shape_save_as', 'options', $params{ options });
     $utils->initialize('put_shape_save_as', 'options', $params{ options });
 
@@ -12561,7 +14736,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_shape_save_as', 'password', $params{ password });
     $utils->initialize('put_shape_save_as', 'password', $params{ password });
 
@@ -12576,7 +14751,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_shape_save_as', 'folder', $params{ folder });
     $utils->initialize('put_shape_save_as', 'folder', $params{ folder });
 
@@ -12591,7 +14766,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_shape_save_as', 'storage', $params{ storage });
     $utils->initialize('put_shape_save_as', 'storage', $params{ storage });
 
@@ -12606,7 +14781,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_x } = $utils->invalidize_param_value('put_shape_save_as', 'scale_x', $params{ scale_x });
     $utils->initialize('put_shape_save_as', 'scale_x', $params{ scale_x });
 
@@ -12621,7 +14796,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ scale_y } = $utils->invalidize_param_value('put_shape_save_as', 'scale_y', $params{ scale_y });
     $utils->initialize('put_shape_save_as', 'scale_y', $params{ scale_y });
 
@@ -12636,7 +14811,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ bounds } = $utils->invalidize_param_value('put_shape_save_as', 'bounds', $params{ bounds });
     $utils->initialize('put_shape_save_as', 'bounds', $params{ bounds });
 
@@ -12651,7 +14826,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_shape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_shape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_shape_save_as', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_shape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_shape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_shape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_shape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_shape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_shape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_shape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_shape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_shape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_shape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_shape_save_as', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('put_shape_save_as', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('put_shape_save_as', 'fonts_folder', $params{ fonts_folder });
 
@@ -13209,7 +15384,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_slide_shape_info test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $utils->initialize('put_slide_shape_info', '');
     eval {
         my $result = $utils->{api}->put_slide_shape_info(%params);
@@ -13221,7 +15396,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_slide_shape_info', 'name', $params{ name });
     $utils->initialize('put_slide_shape_info', 'name', $params{ name });
 
@@ -13236,7 +15411,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_slide_shape_info', 'slide_index', $params{ slide_index });
     $utils->initialize('put_slide_shape_info', 'slide_index', $params{ slide_index });
 
@@ -13251,22 +15426,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_slide_shape_info', 'path', $params{ path });
-    $utils->initialize('put_slide_shape_info', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_slide_shape_info(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_slide_shape_info', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_slide_shape_info', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_slide_shape_info', 'shape_index', $params{ shape_index });
     $utils->initialize('put_slide_shape_info', 'shape_index', $params{ shape_index });
 
@@ -13281,7 +15441,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ dto } = $utils->invalidize_param_value('put_slide_shape_info', 'dto', $params{ dto });
     $utils->initialize('put_slide_shape_info', 'dto', $params{ dto });
 
@@ -13296,7 +15456,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_slide_shape_info', 'password', $params{ password });
     $utils->initialize('put_slide_shape_info', 'password', $params{ password });
 
@@ -13311,7 +15471,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_slide_shape_info', 'folder', $params{ folder });
     $utils->initialize('put_slide_shape_info', 'folder', $params{ folder });
 
@@ -13326,7 +15486,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_shape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_slide_shape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_shape_info', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_slide_shape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_shape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_shape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_shape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_shape_info', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_slide_shape_info', 'storage', $params{ storage });
     $utils->initialize('put_slide_shape_info', 'storage', $params{ storage });
 
@@ -13337,6 +15497,141 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('put_slide_shape_info', 'storage', $params{ storage }, $@);
     } else {
         $utils->assert_no_error('put_slide_shape_info', 'storage');
+    }
+}
+
+#
+# put_slide_subshape_info test
+#
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $utils->initialize('put_slide_subshape_info', '');
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        fail("put_slide_subshape_info raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_slide_subshape_info', 'name', $params{ name });
+    $utils->initialize('put_slide_subshape_info', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_slide_subshape_info', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_slide_subshape_info', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ path } = $utils->invalidize_param_value('put_slide_subshape_info', 'path', $params{ path });
+    $utils->initialize('put_slide_subshape_info', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('put_slide_subshape_info', 'shape_index', $params{ shape_index });
+    $utils->initialize('put_slide_subshape_info', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_slide_subshape_info', 'dto', $params{ dto });
+    $utils->initialize('put_slide_subshape_info', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'dto');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_slide_subshape_info', 'password', $params{ password });
+    $utils->initialize('put_slide_subshape_info', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_slide_subshape_info', 'folder', $params{ folder });
+    $utils->initialize('put_slide_subshape_info', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_slide_subshape_info', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_subshape_info', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_slide_subshape_info', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_slide_subshape_info', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_slide_subshape_info', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_slide_subshape_info', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_subshape_info', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_subshape_info', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_slide_subshape_info', 'storage', $params{ storage });
+    $utils->initialize('put_slide_subshape_info', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_slide_subshape_info(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_subshape_info', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_subshape_info', 'storage');
     }
 }
 
@@ -14301,6 +16596,231 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# put_subshape_save_as test
+#
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $utils->initialize('put_subshape_save_as', '');
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        fail("put_subshape_save_as raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_subshape_save_as', 'name', $params{ name });
+    $utils->initialize('put_subshape_save_as', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_subshape_save_as', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_subshape_save_as', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ path } = $utils->invalidize_param_value('put_subshape_save_as', 'path', $params{ path });
+    $utils->initialize('put_subshape_save_as', 'path', $params{ path });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'path', $params{ path }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('put_subshape_save_as', 'shape_index', $params{ shape_index });
+    $utils->initialize('put_subshape_save_as', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ format } = $utils->invalidize_param_value('put_subshape_save_as', 'format', $params{ format });
+    $utils->initialize('put_subshape_save_as', 'format', $params{ format });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'format', $params{ format }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'format');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ out_path } = $utils->invalidize_param_value('put_subshape_save_as', 'out_path', $params{ out_path });
+    $utils->initialize('put_subshape_save_as', 'out_path', $params{ out_path });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'out_path', $params{ out_path }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'out_path');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ options } = $utils->invalidize_param_value('put_subshape_save_as', 'options', $params{ options });
+    $utils->initialize('put_subshape_save_as', 'options', $params{ options });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'options', $params{ options }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'options');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_subshape_save_as', 'password', $params{ password });
+    $utils->initialize('put_subshape_save_as', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_subshape_save_as', 'folder', $params{ folder });
+    $utils->initialize('put_subshape_save_as', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_subshape_save_as', 'storage', $params{ storage });
+    $utils->initialize('put_subshape_save_as', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'storage');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ scale_x } = $utils->invalidize_param_value('put_subshape_save_as', 'scale_x', $params{ scale_x });
+    $utils->initialize('put_subshape_save_as', 'scale_x', $params{ scale_x });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'scale_x', $params{ scale_x }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'scale_x');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ scale_y } = $utils->invalidize_param_value('put_subshape_save_as', 'scale_y', $params{ scale_y });
+    $utils->initialize('put_subshape_save_as', 'scale_y', $params{ scale_y });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'scale_y', $params{ scale_y }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'scale_y');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ bounds } = $utils->invalidize_param_value('put_subshape_save_as', 'bounds', $params{ bounds });
+    $utils->initialize('put_subshape_save_as', 'bounds', $params{ bounds });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'bounds', $params{ bounds }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'bounds');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_subshape_save_as', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_subshape_save_as', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_subshape_save_as', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_subshape_save_as', 'shape_index', 'int'), 'format' => $utils->get_param_value('put_subshape_save_as', 'format', 'string'), 'out_path' => $utils->get_param_value('put_subshape_save_as', 'out_path', 'string'), 'options' => $utils->get_param_value('put_subshape_save_as', 'options', 'IShapeExportOptions'), 'password' => $utils->get_param_value('put_subshape_save_as', 'password', 'string'), 'folder' => $utils->get_param_value('put_subshape_save_as', 'folder', 'string'), 'storage' => $utils->get_param_value('put_subshape_save_as', 'storage', 'string'), 'scale_x' => $utils->get_param_value('put_subshape_save_as', 'scale_x', 'double'), 'scale_y' => $utils->get_param_value('put_subshape_save_as', 'scale_y', 'double'), 'bounds' => $utils->get_param_value('put_subshape_save_as', 'bounds', 'string'), 'fonts_folder' => $utils->get_param_value('put_subshape_save_as', 'fonts_folder', 'string'));
+    $params{ fonts_folder } = $utils->invalidize_param_value('put_subshape_save_as', 'fonts_folder', $params{ fonts_folder });
+    $utils->initialize('put_subshape_save_as', 'fonts_folder', $params{ fonts_folder });
+
+    eval {
+        my $result = $utils->{api}->put_subshape_save_as(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_subshape_save_as', 'fonts_folder', $params{ fonts_folder }, $@);
+    } else {
+        $utils->assert_no_error('put_subshape_save_as', 'fonts_folder');
+    }
+}
+
+#
 # put_update_notes_slide test
 #
 {
@@ -14409,7 +16929,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_update_notes_slide_shape test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $utils->initialize('put_update_notes_slide_shape', '');
     eval {
         my $result = $utils->{api}->put_update_notes_slide_shape(%params);
@@ -14421,7 +16941,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'name', $params{ name });
     $utils->initialize('put_update_notes_slide_shape', 'name', $params{ name });
 
@@ -14436,7 +16956,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'slide_index', $params{ slide_index });
     $utils->initialize('put_update_notes_slide_shape', 'slide_index', $params{ slide_index });
 
@@ -14451,22 +16971,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'path', $params{ path });
-    $utils->initialize('put_update_notes_slide_shape', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_update_notes_slide_shape(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_update_notes_slide_shape', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_update_notes_slide_shape', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'shape_index', $params{ shape_index });
     $utils->initialize('put_update_notes_slide_shape', 'shape_index', $params{ shape_index });
 
@@ -14481,7 +16986,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ dto } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'dto', $params{ dto });
     $utils->initialize('put_update_notes_slide_shape', 'dto', $params{ dto });
 
@@ -14496,7 +17001,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'password', $params{ password });
     $utils->initialize('put_update_notes_slide_shape', 'password', $params{ password });
 
@@ -14511,7 +17016,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'folder', $params{ folder });
     $utils->initialize('put_update_notes_slide_shape', 'folder', $params{ folder });
 
@@ -14526,7 +17031,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape', 'shape_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape', 'dto', 'ShapeBase'), 'password' => $utils->get_param_value('put_update_notes_slide_shape', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_update_notes_slide_shape', 'storage', $params{ storage });
     $utils->initialize('put_update_notes_slide_shape', 'storage', $params{ storage });
 
@@ -14544,7 +17049,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_update_notes_slide_shape_paragraph test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $utils->initialize('put_update_notes_slide_shape_paragraph', '');
     eval {
         my $result = $utils->{api}->put_update_notes_slide_shape_paragraph(%params);
@@ -14556,7 +17061,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'name', $params{ name });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'name', $params{ name });
 
@@ -14571,7 +17076,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', $params{ slide_index });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'slide_index', $params{ slide_index });
 
@@ -14586,22 +17091,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'path', $params{ path });
-    $utils->initialize('put_update_notes_slide_shape_paragraph', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_update_notes_slide_shape_paragraph(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_update_notes_slide_shape_paragraph', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_update_notes_slide_shape_paragraph', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', $params{ shape_index });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'shape_index', $params{ shape_index });
 
@@ -14616,7 +17106,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'paragraph_index', $params{ paragraph_index });
 
@@ -14631,7 +17121,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ dto } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'dto', $params{ dto });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'dto', $params{ dto });
 
@@ -14646,7 +17136,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'password', $params{ password });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'password', $params{ password });
 
@@ -14661,7 +17151,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'folder', $params{ folder });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'folder', $params{ folder });
 
@@ -14676,7 +17166,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'paragraph_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'dto', 'Paragraph'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_paragraph', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_update_notes_slide_shape_paragraph', 'storage', $params{ storage });
     $utils->initialize('put_update_notes_slide_shape_paragraph', 'storage', $params{ storage });
 
@@ -14694,7 +17184,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 # put_update_notes_slide_shape_portion test
 #
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $utils->initialize('put_update_notes_slide_shape_portion', '');
     eval {
         my $result = $utils->{api}->put_update_notes_slide_shape_portion(%params);
@@ -14706,7 +17196,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ name } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'name', $params{ name });
     $utils->initialize('put_update_notes_slide_shape_portion', 'name', $params{ name });
 
@@ -14721,7 +17211,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'slide_index', $params{ slide_index });
     $utils->initialize('put_update_notes_slide_shape_portion', 'slide_index', $params{ slide_index });
 
@@ -14736,22 +17226,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
-    $params{ path } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'path', $params{ path });
-    $utils->initialize('put_update_notes_slide_shape_portion', 'path', $params{ path });
-
-    eval {
-        my $result = $utils->{api}->put_update_notes_slide_shape_portion(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_update_notes_slide_shape_portion', 'path', $params{ path }, $@);
-    } else {
-        $utils->assert_no_error('put_update_notes_slide_shape_portion', 'path');
-    }
-}
-
-{
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ shape_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'shape_index', $params{ shape_index });
     $utils->initialize('put_update_notes_slide_shape_portion', 'shape_index', $params{ shape_index });
 
@@ -14766,7 +17241,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ paragraph_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', $params{ paragraph_index });
     $utils->initialize('put_update_notes_slide_shape_portion', 'paragraph_index', $params{ paragraph_index });
 
@@ -14781,7 +17256,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ portion_index } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'portion_index', $params{ portion_index });
     $utils->initialize('put_update_notes_slide_shape_portion', 'portion_index', $params{ portion_index });
 
@@ -14796,7 +17271,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ dto } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'dto', $params{ dto });
     $utils->initialize('put_update_notes_slide_shape_portion', 'dto', $params{ dto });
 
@@ -14811,7 +17286,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'password', $params{ password });
     $utils->initialize('put_update_notes_slide_shape_portion', 'password', $params{ password });
 
@@ -14826,7 +17301,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ folder } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'folder', $params{ folder });
     $utils->initialize('put_update_notes_slide_shape_portion', 'folder', $params{ folder });
 
@@ -14841,7 +17316,7 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 {
-    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'path' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'path', 'string'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
+    my %params = ('name' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'shape_index', 'int'), 'paragraph_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'paragraph_index', 'int'), 'portion_index' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'portion_index', 'int'), 'dto' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'dto', 'Portion'), 'password' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'password', 'string'), 'folder' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'folder', 'string'), 'storage' => $utils->get_param_value('put_update_notes_slide_shape_portion', 'storage', 'string'));
     $params{ storage } = $utils->invalidize_param_value('put_update_notes_slide_shape_portion', 'storage', $params{ storage });
     $utils->initialize('put_update_notes_slide_shape_portion', 'storage', $params{ storage });
 
