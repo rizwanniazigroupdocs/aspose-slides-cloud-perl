@@ -246,6 +246,126 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# delete_chart_series test
+#
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $utils->initialize('delete_chart_series', '');
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        fail("delete_chart_series raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_chart_series', 'name', $params{ name });
+    $utils->initialize('delete_chart_series', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('delete_chart_series', 'slide_index', $params{ slide_index });
+    $utils->initialize('delete_chart_series', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('delete_chart_series', 'shape_index', $params{ shape_index });
+    $utils->initialize('delete_chart_series', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ series_index } = $utils->invalidize_param_value('delete_chart_series', 'series_index', $params{ series_index });
+    $utils->initialize('delete_chart_series', 'series_index', $params{ series_index });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'series_index', $params{ series_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'series_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_chart_series', 'password', $params{ password });
+    $utils->initialize('delete_chart_series', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_chart_series', 'folder', $params{ folder });
+    $utils->initialize('delete_chart_series', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('delete_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('delete_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('delete_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('delete_chart_series', 'series_index', 'int'), 'password' => $utils->get_param_value('delete_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('delete_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_chart_series', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_chart_series', 'storage', $params{ storage });
+    $utils->initialize('delete_chart_series', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_chart_series', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_chart_series', 'storage');
+    }
+}
+
+#
 # delete_file test
 #
 {
@@ -9801,6 +9921,126 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
 }
 
 #
+# post_chart_series test
+#
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $utils->initialize('post_chart_series', '');
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        fail("post_chart_series raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('post_chart_series', 'name', $params{ name });
+    $utils->initialize('post_chart_series', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_chart_series', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_chart_series', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('post_chart_series', 'shape_index', $params{ shape_index });
+    $utils->initialize('post_chart_series', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ series } = $utils->invalidize_param_value('post_chart_series', 'series', $params{ series });
+    $utils->initialize('post_chart_series', 'series', $params{ series });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'series', $params{ series }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'series');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_chart_series', 'password', $params{ password });
+    $utils->initialize('post_chart_series', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('post_chart_series', 'folder', $params{ folder });
+    $utils->initialize('post_chart_series', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('post_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('post_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('post_chart_series', 'shape_index', 'int'), 'series' => $utils->get_param_value('post_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('post_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('post_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('post_chart_series', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('post_chart_series', 'storage', $params{ storage });
+    $utils->initialize('post_chart_series', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_chart_series', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_chart_series', 'storage');
+    }
+}
+
+#
 # post_copy_layout_slide_from_source_presentation test
 #
 {
@@ -13622,6 +13862,141 @@ my $utils = AsposeSlidesCloud::TestUtils->new();
         $utils->assert_error('post_subshape_save_as', 'fonts_folder', $params{ fonts_folder }, $@);
     } else {
         $utils->assert_no_error('post_subshape_save_as', 'fonts_folder');
+    }
+}
+
+#
+# put_chart_series test
+#
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $utils->initialize('put_chart_series', '');
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        fail("put_chart_series raised an exception: $@");
+    }
+    pass();
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_chart_series', 'name', $params{ name });
+    $utils->initialize('put_chart_series', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'name');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_chart_series', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_chart_series', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'slide_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ shape_index } = $utils->invalidize_param_value('put_chart_series', 'shape_index', $params{ shape_index });
+    $utils->initialize('put_chart_series', 'shape_index', $params{ shape_index });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'shape_index', $params{ shape_index }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'shape_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ series_index } = $utils->invalidize_param_value('put_chart_series', 'series_index', $params{ series_index });
+    $utils->initialize('put_chart_series', 'series_index', $params{ series_index });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'series_index', $params{ series_index }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'series_index');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ series } = $utils->invalidize_param_value('put_chart_series', 'series', $params{ series });
+    $utils->initialize('put_chart_series', 'series', $params{ series });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'series', $params{ series }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'series');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_chart_series', 'password', $params{ password });
+    $utils->initialize('put_chart_series', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'password');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_chart_series', 'folder', $params{ folder });
+    $utils->initialize('put_chart_series', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'folder');
+    }
+}
+
+{
+    my %params = ('name' => $utils->get_param_value('put_chart_series', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_chart_series', 'slide_index', 'int'), 'shape_index' => $utils->get_param_value('put_chart_series', 'shape_index', 'int'), 'series_index' => $utils->get_param_value('put_chart_series', 'series_index', 'int'), 'series' => $utils->get_param_value('put_chart_series', 'series', 'Series'), 'password' => $utils->get_param_value('put_chart_series', 'password', 'string'), 'folder' => $utils->get_param_value('put_chart_series', 'folder', 'string'), 'storage' => $utils->get_param_value('put_chart_series', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_chart_series', 'storage', $params{ storage });
+    $utils->initialize('put_chart_series', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_chart_series(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_chart_series', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_chart_series', 'storage');
     }
 }
 
