@@ -2061,6 +2061,216 @@ subtest 'delete_portions invalid storage' => sub {
 };
 
 #
+# delete_section test
+#
+subtest 'delete_section' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $utils->initialize('delete_section', '');
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        fail("delete_section raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'delete_section invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_section', 'name', $params{ name });
+    $utils->initialize('delete_section', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_section', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_section', 'name');
+    }
+};
+
+subtest 'delete_section invalid section_index' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $params{ section_index } = $utils->invalidize_param_value('delete_section', 'section_index', $params{ section_index });
+    $utils->initialize('delete_section', 'section_index', $params{ section_index });
+
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_section', 'section_index', $params{ section_index }, $@);
+    } else {
+        $utils->assert_no_error('delete_section', 'section_index');
+    }
+};
+
+subtest 'delete_section invalid with_slides' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $params{ with_slides } = $utils->invalidize_param_value('delete_section', 'with_slides', $params{ with_slides });
+    $utils->initialize('delete_section', 'with_slides', $params{ with_slides });
+
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_section', 'with_slides', $params{ with_slides }, $@);
+    } else {
+        $utils->assert_no_error('delete_section', 'with_slides');
+    }
+};
+
+subtest 'delete_section invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_section', 'password', $params{ password });
+    $utils->initialize('delete_section', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_section', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_section', 'password');
+    }
+};
+
+subtest 'delete_section invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_section', 'folder', $params{ folder });
+    $utils->initialize('delete_section', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_section', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_section', 'folder');
+    }
+};
+
+subtest 'delete_section invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_section', 'name', 'string'), 'section_index' => $utils->get_param_value('delete_section', 'section_index', 'int'), 'with_slides' => $utils->get_param_value('delete_section', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_section', 'password', 'string'), 'folder' => $utils->get_param_value('delete_section', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_section', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_section', 'storage', $params{ storage });
+    $utils->initialize('delete_section', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_section', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_section', 'storage');
+    }
+};
+
+#
+# delete_sections test
+#
+subtest 'delete_sections' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $utils->initialize('delete_sections', '');
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        fail("delete_sections raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'delete_sections invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('delete_sections', 'name', $params{ name });
+    $utils->initialize('delete_sections', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_sections', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('delete_sections', 'name');
+    }
+};
+
+subtest 'delete_sections invalid sections' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $params{ sections } = $utils->invalidize_param_value('delete_sections', 'sections', $params{ sections });
+    $utils->initialize('delete_sections', 'sections', $params{ sections });
+
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_sections', 'sections', $params{ sections }, $@);
+    } else {
+        $utils->assert_no_error('delete_sections', 'sections');
+    }
+};
+
+subtest 'delete_sections invalid with_slides' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $params{ with_slides } = $utils->invalidize_param_value('delete_sections', 'with_slides', $params{ with_slides });
+    $utils->initialize('delete_sections', 'with_slides', $params{ with_slides });
+
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_sections', 'with_slides', $params{ with_slides }, $@);
+    } else {
+        $utils->assert_no_error('delete_sections', 'with_slides');
+    }
+};
+
+subtest 'delete_sections invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('delete_sections', 'password', $params{ password });
+    $utils->initialize('delete_sections', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_sections', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('delete_sections', 'password');
+    }
+};
+
+subtest 'delete_sections invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('delete_sections', 'folder', $params{ folder });
+    $utils->initialize('delete_sections', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_sections', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('delete_sections', 'folder');
+    }
+};
+
+subtest 'delete_sections invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('delete_sections', 'name', 'string'), 'sections' => $utils->get_param_value('delete_sections', 'sections', 'string'), 'with_slides' => $utils->get_param_value('delete_sections', 'with_slides', 'boolean'), 'password' => $utils->get_param_value('delete_sections', 'password', 'string'), 'folder' => $utils->get_param_value('delete_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('delete_sections', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('delete_sections', 'storage', $params{ storage });
+    $utils->initialize('delete_sections', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->delete_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('delete_sections', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('delete_sections', 'storage');
+    }
+};
+
+#
 # delete_slide_animation test
 #
 subtest 'delete_slide_animation' => sub {
@@ -4806,6 +5016,96 @@ subtest 'get_notes_slide_exists invalid storage' => sub {
 };
 
 #
+# get_notes_slide_header_footer test
+#
+subtest 'get_notes_slide_header_footer' => sub {
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_header_footer', 'folder', 'string'));
+    $utils->initialize('get_notes_slide_header_footer', '');
+    eval {
+        my $result = $utils->{api}->get_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        fail("get_notes_slide_header_footer raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'get_notes_slide_header_footer invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_header_footer', 'folder', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_notes_slide_header_footer', 'name', $params{ name });
+    $utils->initialize('get_notes_slide_header_footer', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_header_footer', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_header_footer', 'name');
+    }
+};
+
+subtest 'get_notes_slide_header_footer invalid slide_index' => sub {
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_header_footer', 'folder', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_notes_slide_header_footer', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_notes_slide_header_footer', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_header_footer', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_header_footer', 'slide_index');
+    }
+};
+
+subtest 'get_notes_slide_header_footer invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_header_footer', 'folder', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_notes_slide_header_footer', 'password', $params{ password });
+    $utils->initialize('get_notes_slide_header_footer', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_header_footer', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_header_footer', 'password');
+    }
+};
+
+subtest 'get_notes_slide_header_footer invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_header_footer', 'folder', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_notes_slide_header_footer', 'storage', $params{ storage });
+    $utils->initialize('get_notes_slide_header_footer', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_header_footer', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_header_footer', 'storage');
+    }
+};
+
+subtest 'get_notes_slide_header_footer invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('get_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_notes_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('get_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('get_notes_slide_header_footer', 'folder', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_notes_slide_header_footer', 'folder', $params{ folder });
+    $utils->initialize('get_notes_slide_header_footer', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_notes_slide_header_footer', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_notes_slide_header_footer', 'folder');
+    }
+};
+
+#
 # get_notes_slide_shape test
 #
 subtest 'get_notes_slide_shape' => sub {
@@ -5886,6 +6186,81 @@ subtest 'get_paragraph_portions invalid storage' => sub {
 };
 
 #
+# get_sections test
+#
+subtest 'get_sections' => sub {
+    my %params = ('name' => $utils->get_param_value('get_sections', 'name', 'string'), 'password' => $utils->get_param_value('get_sections', 'password', 'string'), 'folder' => $utils->get_param_value('get_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('get_sections', 'storage', 'string'));
+    $utils->initialize('get_sections', '');
+    eval {
+        my $result = $utils->{api}->get_sections(%params);
+    };
+    if ($@) {
+        fail("get_sections raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'get_sections invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('get_sections', 'name', 'string'), 'password' => $utils->get_param_value('get_sections', 'password', 'string'), 'folder' => $utils->get_param_value('get_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('get_sections', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_sections', 'name', $params{ name });
+    $utils->initialize('get_sections', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_sections', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_sections', 'name');
+    }
+};
+
+subtest 'get_sections invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('get_sections', 'name', 'string'), 'password' => $utils->get_param_value('get_sections', 'password', 'string'), 'folder' => $utils->get_param_value('get_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('get_sections', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_sections', 'password', $params{ password });
+    $utils->initialize('get_sections', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_sections', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_sections', 'password');
+    }
+};
+
+subtest 'get_sections invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('get_sections', 'name', 'string'), 'password' => $utils->get_param_value('get_sections', 'password', 'string'), 'folder' => $utils->get_param_value('get_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('get_sections', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_sections', 'folder', $params{ folder });
+    $utils->initialize('get_sections', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_sections', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_sections', 'folder');
+    }
+};
+
+subtest 'get_sections invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('get_sections', 'name', 'string'), 'password' => $utils->get_param_value('get_sections', 'password', 'string'), 'folder' => $utils->get_param_value('get_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('get_sections', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_sections', 'storage', $params{ storage });
+    $utils->initialize('get_sections', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_sections', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_sections', 'storage');
+    }
+};
+
+#
 # get_slide_animation test
 #
 subtest 'get_slide_animation' => sub {
@@ -5987,6 +6362,96 @@ subtest 'get_slide_animation invalid storage' => sub {
         $utils->assert_error('get_slide_animation', 'storage', $params{ storage }, $@);
     } else {
         $utils->assert_no_error('get_slide_animation', 'storage');
+    }
+};
+
+#
+# get_slide_header_footer test
+#
+subtest 'get_slide_header_footer' => sub {
+    my %params = ('name' => $utils->get_param_value('get_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_header_footer', 'storage', 'string'));
+    $utils->initialize('get_slide_header_footer', '');
+    eval {
+        my $result = $utils->{api}->get_slide_header_footer(%params);
+    };
+    if ($@) {
+        fail("get_slide_header_footer raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'get_slide_header_footer invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('get_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_header_footer', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('get_slide_header_footer', 'name', $params{ name });
+    $utils->initialize('get_slide_header_footer', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->get_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_header_footer', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_header_footer', 'name');
+    }
+};
+
+subtest 'get_slide_header_footer invalid slide_index' => sub {
+    my %params = ('name' => $utils->get_param_value('get_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_header_footer', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('get_slide_header_footer', 'slide_index', $params{ slide_index });
+    $utils->initialize('get_slide_header_footer', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->get_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_header_footer', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_header_footer', 'slide_index');
+    }
+};
+
+subtest 'get_slide_header_footer invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('get_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_header_footer', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('get_slide_header_footer', 'password', $params{ password });
+    $utils->initialize('get_slide_header_footer', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->get_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_header_footer', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_header_footer', 'password');
+    }
+};
+
+subtest 'get_slide_header_footer invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('get_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_header_footer', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('get_slide_header_footer', 'folder', $params{ folder });
+    $utils->initialize('get_slide_header_footer', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->get_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_header_footer', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_header_footer', 'folder');
+    }
+};
+
+subtest 'get_slide_header_footer invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('get_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('get_slide_header_footer', 'slide_index', 'int'), 'password' => $utils->get_param_value('get_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('get_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('get_slide_header_footer', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('get_slide_header_footer', 'storage', $params{ storage });
+    $utils->initialize('get_slide_header_footer', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->get_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('get_slide_header_footer', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('get_slide_header_footer', 'storage');
     }
 };
 
@@ -10839,7 +11304,7 @@ subtest 'post_copy_master_slide_from_source_presentation invalid storage' => sub
 # post_get_notes_slide test
 #
 subtest 'post_get_notes_slide' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
     $utils->initialize('post_get_notes_slide', '');
     eval {
         my $result = $utils->{api}->post_get_notes_slide(%params);
@@ -10850,23 +11315,8 @@ subtest 'post_get_notes_slide' => sub {
     pass();
 };
 
-subtest 'post_get_notes_slide invalid slide_index' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
-    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide', 'slide_index', $params{ slide_index });
-    $utils->initialize('post_get_notes_slide', 'slide_index', $params{ slide_index });
-
-    eval {
-        my $result = $utils->{api}->post_get_notes_slide(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_get_notes_slide', 'slide_index', $params{ slide_index }, $@);
-    } else {
-        $utils->assert_no_error('post_get_notes_slide', 'slide_index');
-    }
-};
-
 subtest 'post_get_notes_slide invalid document' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
     $params{ document } = $utils->invalidize_param_value('post_get_notes_slide', 'document', $params{ document });
     $utils->initialize('post_get_notes_slide', 'document', $params{ document });
 
@@ -10880,8 +11330,23 @@ subtest 'post_get_notes_slide invalid document' => sub {
     }
 };
 
+subtest 'post_get_notes_slide invalid slide_index' => sub {
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_get_notes_slide', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide', 'slide_index');
+    }
+};
+
 subtest 'post_get_notes_slide invalid password' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide', 'password', 'string'));
     $params{ password } = $utils->invalidize_param_value('post_get_notes_slide', 'password', $params{ password });
     $utils->initialize('post_get_notes_slide', 'password', $params{ password });
 
@@ -10899,7 +11364,7 @@ subtest 'post_get_notes_slide invalid password' => sub {
 # post_get_notes_slide_exists test
 #
 subtest 'post_get_notes_slide_exists' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
     $utils->initialize('post_get_notes_slide_exists', '');
     eval {
         my $result = $utils->{api}->post_get_notes_slide_exists(%params);
@@ -10910,23 +11375,8 @@ subtest 'post_get_notes_slide_exists' => sub {
     pass();
 };
 
-subtest 'post_get_notes_slide_exists invalid slide_index' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
-    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'slide_index', $params{ slide_index });
-    $utils->initialize('post_get_notes_slide_exists', 'slide_index', $params{ slide_index });
-
-    eval {
-        my $result = $utils->{api}->post_get_notes_slide_exists(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_get_notes_slide_exists', 'slide_index', $params{ slide_index }, $@);
-    } else {
-        $utils->assert_no_error('post_get_notes_slide_exists', 'slide_index');
-    }
-};
-
 subtest 'post_get_notes_slide_exists invalid document' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
     $params{ document } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'document', $params{ document });
     $utils->initialize('post_get_notes_slide_exists', 'document', $params{ document });
 
@@ -10940,8 +11390,23 @@ subtest 'post_get_notes_slide_exists invalid document' => sub {
     }
 };
 
+subtest 'post_get_notes_slide_exists invalid slide_index' => sub {
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_get_notes_slide_exists', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_exists(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_exists', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_exists', 'slide_index');
+    }
+};
+
 subtest 'post_get_notes_slide_exists invalid password' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_exists', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_exists', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_exists', 'password', 'string'));
     $params{ password } = $utils->invalidize_param_value('post_get_notes_slide_exists', 'password', $params{ password });
     $utils->initialize('post_get_notes_slide_exists', 'password', $params{ password });
 
@@ -10959,7 +11424,7 @@ subtest 'post_get_notes_slide_exists invalid password' => sub {
 # post_get_notes_slide_with_format test
 #
 subtest 'post_get_notes_slide_with_format' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $utils->initialize('post_get_notes_slide_with_format', '');
     eval {
         my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
@@ -10970,8 +11435,23 @@ subtest 'post_get_notes_slide_with_format' => sub {
     pass();
 };
 
+subtest 'post_get_notes_slide_with_format invalid document' => sub {
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    $params{ document } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'document', $params{ document });
+    $utils->initialize('post_get_notes_slide_with_format', 'document', $params{ document });
+
+    eval {
+        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_get_notes_slide_with_format', 'document', $params{ document }, $@);
+    } else {
+        $utils->assert_no_error('post_get_notes_slide_with_format', 'document');
+    }
+};
+
 subtest 'post_get_notes_slide_with_format invalid slide_index' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $params{ slide_index } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'slide_index', $params{ slide_index });
     $utils->initialize('post_get_notes_slide_with_format', 'slide_index', $params{ slide_index });
 
@@ -10986,7 +11466,7 @@ subtest 'post_get_notes_slide_with_format invalid slide_index' => sub {
 };
 
 subtest 'post_get_notes_slide_with_format invalid format' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $params{ format } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'format', $params{ format });
     $utils->initialize('post_get_notes_slide_with_format', 'format', $params{ format });
 
@@ -11000,23 +11480,8 @@ subtest 'post_get_notes_slide_with_format invalid format' => sub {
     }
 };
 
-subtest 'post_get_notes_slide_with_format invalid document' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
-    $params{ document } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'document', $params{ document });
-    $utils->initialize('post_get_notes_slide_with_format', 'document', $params{ document });
-
-    eval {
-        my $result = $utils->{api}->post_get_notes_slide_with_format(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_get_notes_slide_with_format', 'document', $params{ document }, $@);
-    } else {
-        $utils->assert_no_error('post_get_notes_slide_with_format', 'document');
-    }
-};
-
 subtest 'post_get_notes_slide_with_format invalid width' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $params{ width } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'width', $params{ width });
     $utils->initialize('post_get_notes_slide_with_format', 'width', $params{ width });
 
@@ -11031,7 +11496,7 @@ subtest 'post_get_notes_slide_with_format invalid width' => sub {
 };
 
 subtest 'post_get_notes_slide_with_format invalid height' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $params{ height } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'height', $params{ height });
     $utils->initialize('post_get_notes_slide_with_format', 'height', $params{ height });
 
@@ -11046,7 +11511,7 @@ subtest 'post_get_notes_slide_with_format invalid height' => sub {
 };
 
 subtest 'post_get_notes_slide_with_format invalid password' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'password', $params{ password });
     $utils->initialize('post_get_notes_slide_with_format', 'password', $params{ password });
 
@@ -11061,7 +11526,7 @@ subtest 'post_get_notes_slide_with_format invalid password' => sub {
 };
 
 subtest 'post_get_notes_slide_with_format invalid fonts_folder' => sub {
-    my %params = ('slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_get_notes_slide_with_format', 'document', 'File'), 'slide_index' => $utils->get_param_value('post_get_notes_slide_with_format', 'slide_index', 'int'), 'format' => $utils->get_param_value('post_get_notes_slide_with_format', 'format', 'string'), 'width' => $utils->get_param_value('post_get_notes_slide_with_format', 'width', 'int'), 'height' => $utils->get_param_value('post_get_notes_slide_with_format', 'height', 'int'), 'password' => $utils->get_param_value('post_get_notes_slide_with_format', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_get_notes_slide_with_format', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('post_get_notes_slide_with_format', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('post_get_notes_slide_with_format', 'fonts_folder', $params{ fonts_folder });
 
@@ -11777,6 +12242,216 @@ subtest 'post_presentation_merge invalid folder' => sub {
         $utils->assert_error('post_presentation_merge', 'folder', $params{ folder }, $@);
     } else {
         $utils->assert_no_error('post_presentation_merge', 'folder');
+    }
+};
+
+#
+# post_section test
+#
+subtest 'post_section' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $utils->initialize('post_section', '');
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        fail("post_section raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'post_section invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('post_section', 'name', $params{ name });
+    $utils->initialize('post_section', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_section', 'name');
+    }
+};
+
+subtest 'post_section invalid section_name' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $params{ section_name } = $utils->invalidize_param_value('post_section', 'section_name', $params{ section_name });
+    $utils->initialize('post_section', 'section_name', $params{ section_name });
+
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section', 'section_name', $params{ section_name }, $@);
+    } else {
+        $utils->assert_no_error('post_section', 'section_name');
+    }
+};
+
+subtest 'post_section invalid slide_index' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('post_section', 'slide_index', $params{ slide_index });
+    $utils->initialize('post_section', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('post_section', 'slide_index');
+    }
+};
+
+subtest 'post_section invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_section', 'password', $params{ password });
+    $utils->initialize('post_section', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_section', 'password');
+    }
+};
+
+subtest 'post_section invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('post_section', 'folder', $params{ folder });
+    $utils->initialize('post_section', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_section', 'folder');
+    }
+};
+
+subtest 'post_section invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section', 'name', 'string'), 'section_name' => $utils->get_param_value('post_section', 'section_name', 'string'), 'slide_index' => $utils->get_param_value('post_section', 'slide_index', 'int'), 'password' => $utils->get_param_value('post_section', 'password', 'string'), 'folder' => $utils->get_param_value('post_section', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('post_section', 'storage', $params{ storage });
+    $utils->initialize('post_section', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_section', 'storage');
+    }
+};
+
+#
+# post_section_move test
+#
+subtest 'post_section_move' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $utils->initialize('post_section_move', '');
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        fail("post_section_move raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'post_section_move invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('post_section_move', 'name', $params{ name });
+    $utils->initialize('post_section_move', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section_move', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('post_section_move', 'name');
+    }
+};
+
+subtest 'post_section_move invalid section_index' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $params{ section_index } = $utils->invalidize_param_value('post_section_move', 'section_index', $params{ section_index });
+    $utils->initialize('post_section_move', 'section_index', $params{ section_index });
+
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section_move', 'section_index', $params{ section_index }, $@);
+    } else {
+        $utils->assert_no_error('post_section_move', 'section_index');
+    }
+};
+
+subtest 'post_section_move invalid new_position' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $params{ new_position } = $utils->invalidize_param_value('post_section_move', 'new_position', $params{ new_position });
+    $utils->initialize('post_section_move', 'new_position', $params{ new_position });
+
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section_move', 'new_position', $params{ new_position }, $@);
+    } else {
+        $utils->assert_no_error('post_section_move', 'new_position');
+    }
+};
+
+subtest 'post_section_move invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('post_section_move', 'password', $params{ password });
+    $utils->initialize('post_section_move', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section_move', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('post_section_move', 'password');
+    }
+};
+
+subtest 'post_section_move invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('post_section_move', 'folder', $params{ folder });
+    $utils->initialize('post_section_move', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section_move', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('post_section_move', 'folder');
+    }
+};
+
+subtest 'post_section_move invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('post_section_move', 'name', 'string'), 'section_index' => $utils->get_param_value('post_section_move', 'section_index', 'int'), 'new_position' => $utils->get_param_value('post_section_move', 'new_position', 'int'), 'password' => $utils->get_param_value('post_section_move', 'password', 'string'), 'folder' => $utils->get_param_value('post_section_move', 'folder', 'string'), 'storage' => $utils->get_param_value('post_section_move', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('post_section_move', 'storage', $params{ storage });
+    $utils->initialize('post_section_move', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->post_section_move(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_section_move', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('post_section_move', 'storage');
     }
 };
 
@@ -12579,7 +13254,7 @@ subtest 'post_slides_add invalid layout_alias' => sub {
 # post_slides_convert test
 #
 subtest 'post_slides_convert' => sub {
-    my %params = ('format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
     $utils->initialize('post_slides_convert', '');
     eval {
         my $result = $utils->{api}->post_slides_convert(%params);
@@ -12590,23 +13265,8 @@ subtest 'post_slides_convert' => sub {
     pass();
 };
 
-subtest 'post_slides_convert invalid format' => sub {
-    my %params = ('format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
-    $params{ format } = $utils->invalidize_param_value('post_slides_convert', 'format', $params{ format });
-    $utils->initialize('post_slides_convert', 'format', $params{ format });
-
-    eval {
-        my $result = $utils->{api}->post_slides_convert(%params);
-    };
-    if ($@) {
-        $utils->assert_error('post_slides_convert', 'format', $params{ format }, $@);
-    } else {
-        $utils->assert_no_error('post_slides_convert', 'format');
-    }
-};
-
 subtest 'post_slides_convert invalid document' => sub {
-    my %params = ('format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
     $params{ document } = $utils->invalidize_param_value('post_slides_convert', 'document', $params{ document });
     $utils->initialize('post_slides_convert', 'document', $params{ document });
 
@@ -12620,8 +13280,23 @@ subtest 'post_slides_convert invalid document' => sub {
     }
 };
 
+subtest 'post_slides_convert invalid format' => sub {
+    my %params = ('document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
+    $params{ format } = $utils->invalidize_param_value('post_slides_convert', 'format', $params{ format });
+    $utils->initialize('post_slides_convert', 'format', $params{ format });
+
+    eval {
+        my $result = $utils->{api}->post_slides_convert(%params);
+    };
+    if ($@) {
+        $utils->assert_error('post_slides_convert', 'format', $params{ format }, $@);
+    } else {
+        $utils->assert_no_error('post_slides_convert', 'format');
+    }
+};
+
 subtest 'post_slides_convert invalid password' => sub {
-    my %params = ('format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('post_slides_convert', 'password', $params{ password });
     $utils->initialize('post_slides_convert', 'password', $params{ password });
 
@@ -12636,7 +13311,7 @@ subtest 'post_slides_convert invalid password' => sub {
 };
 
 subtest 'post_slides_convert invalid fonts_folder' => sub {
-    my %params = ('format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('post_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('post_slides_convert', 'format', 'string'), 'password' => $utils->get_param_value('post_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('post_slides_convert', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('post_slides_convert', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('post_slides_convert', 'fonts_folder', $params{ fonts_folder });
 
@@ -14901,6 +15576,111 @@ subtest 'put_layout_slide invalid storage' => sub {
 };
 
 #
+# put_notes_slide_header_footer test
+#
+subtest 'put_notes_slide_header_footer' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $utils->initialize('put_notes_slide_header_footer', '');
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        fail("put_notes_slide_header_footer raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'put_notes_slide_header_footer invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_notes_slide_header_footer', 'name', $params{ name });
+    $utils->initialize('put_notes_slide_header_footer', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_notes_slide_header_footer', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_notes_slide_header_footer', 'name');
+    }
+};
+
+subtest 'put_notes_slide_header_footer invalid slide_index' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_notes_slide_header_footer', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_notes_slide_header_footer', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_notes_slide_header_footer', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_notes_slide_header_footer', 'slide_index');
+    }
+};
+
+subtest 'put_notes_slide_header_footer invalid dto' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_notes_slide_header_footer', 'dto', $params{ dto });
+    $utils->initialize('put_notes_slide_header_footer', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_notes_slide_header_footer', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_notes_slide_header_footer', 'dto');
+    }
+};
+
+subtest 'put_notes_slide_header_footer invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_notes_slide_header_footer', 'password', $params{ password });
+    $utils->initialize('put_notes_slide_header_footer', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_notes_slide_header_footer', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_notes_slide_header_footer', 'password');
+    }
+};
+
+subtest 'put_notes_slide_header_footer invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_notes_slide_header_footer', 'storage', $params{ storage });
+    $utils->initialize('put_notes_slide_header_footer', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_notes_slide_header_footer', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_notes_slide_header_footer', 'storage');
+    }
+};
+
+subtest 'put_notes_slide_header_footer invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('put_notes_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_notes_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_notes_slide_header_footer', 'dto', 'NotesSlideHeaderFooter'), 'password' => $utils->get_param_value('put_notes_slide_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_notes_slide_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_notes_slide_header_footer', 'folder', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_notes_slide_header_footer', 'folder', $params{ folder });
+    $utils->initialize('put_notes_slide_header_footer', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_notes_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_notes_slide_header_footer', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_notes_slide_header_footer', 'folder');
+    }
+};
+
+#
 # put_notes_slide_shape_save_as test
 #
 subtest 'put_notes_slide_shape_save_as' => sub {
@@ -15197,6 +15977,201 @@ subtest 'put_presentation_merge invalid folder' => sub {
         $utils->assert_error('put_presentation_merge', 'folder', $params{ folder }, $@);
     } else {
         $utils->assert_no_error('put_presentation_merge', 'folder');
+    }
+};
+
+#
+# put_section test
+#
+subtest 'put_section' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $utils->initialize('put_section', '');
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        fail("put_section raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'put_section invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_section', 'name', $params{ name });
+    $utils->initialize('put_section', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_section', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_section', 'name');
+    }
+};
+
+subtest 'put_section invalid section_index' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $params{ section_index } = $utils->invalidize_param_value('put_section', 'section_index', $params{ section_index });
+    $utils->initialize('put_section', 'section_index', $params{ section_index });
+
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_section', 'section_index', $params{ section_index }, $@);
+    } else {
+        $utils->assert_no_error('put_section', 'section_index');
+    }
+};
+
+subtest 'put_section invalid section_name' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $params{ section_name } = $utils->invalidize_param_value('put_section', 'section_name', $params{ section_name });
+    $utils->initialize('put_section', 'section_name', $params{ section_name });
+
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_section', 'section_name', $params{ section_name }, $@);
+    } else {
+        $utils->assert_no_error('put_section', 'section_name');
+    }
+};
+
+subtest 'put_section invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_section', 'password', $params{ password });
+    $utils->initialize('put_section', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_section', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_section', 'password');
+    }
+};
+
+subtest 'put_section invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_section', 'folder', $params{ folder });
+    $utils->initialize('put_section', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_section', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_section', 'folder');
+    }
+};
+
+subtest 'put_section invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('put_section', 'name', 'string'), 'section_index' => $utils->get_param_value('put_section', 'section_index', 'int'), 'section_name' => $utils->get_param_value('put_section', 'section_name', 'string'), 'password' => $utils->get_param_value('put_section', 'password', 'string'), 'folder' => $utils->get_param_value('put_section', 'folder', 'string'), 'storage' => $utils->get_param_value('put_section', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_section', 'storage', $params{ storage });
+    $utils->initialize('put_section', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_section(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_section', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_section', 'storage');
+    }
+};
+
+#
+# put_sections test
+#
+subtest 'put_sections' => sub {
+    my %params = ('name' => $utils->get_param_value('put_sections', 'name', 'string'), 'sections' => $utils->get_param_value('put_sections', 'sections', 'Sections'), 'password' => $utils->get_param_value('put_sections', 'password', 'string'), 'folder' => $utils->get_param_value('put_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('put_sections', 'storage', 'string'));
+    $utils->initialize('put_sections', '');
+    eval {
+        my $result = $utils->{api}->put_sections(%params);
+    };
+    if ($@) {
+        fail("put_sections raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'put_sections invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('put_sections', 'name', 'string'), 'sections' => $utils->get_param_value('put_sections', 'sections', 'Sections'), 'password' => $utils->get_param_value('put_sections', 'password', 'string'), 'folder' => $utils->get_param_value('put_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('put_sections', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_sections', 'name', $params{ name });
+    $utils->initialize('put_sections', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_sections', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_sections', 'name');
+    }
+};
+
+subtest 'put_sections invalid sections' => sub {
+    my %params = ('name' => $utils->get_param_value('put_sections', 'name', 'string'), 'sections' => $utils->get_param_value('put_sections', 'sections', 'Sections'), 'password' => $utils->get_param_value('put_sections', 'password', 'string'), 'folder' => $utils->get_param_value('put_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('put_sections', 'storage', 'string'));
+    $params{ sections } = $utils->invalidize_param_value('put_sections', 'sections', $params{ sections });
+    $utils->initialize('put_sections', 'sections', $params{ sections });
+
+    eval {
+        my $result = $utils->{api}->put_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_sections', 'sections', $params{ sections }, $@);
+    } else {
+        $utils->assert_no_error('put_sections', 'sections');
+    }
+};
+
+subtest 'put_sections invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('put_sections', 'name', 'string'), 'sections' => $utils->get_param_value('put_sections', 'sections', 'Sections'), 'password' => $utils->get_param_value('put_sections', 'password', 'string'), 'folder' => $utils->get_param_value('put_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('put_sections', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_sections', 'password', $params{ password });
+    $utils->initialize('put_sections', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_sections', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_sections', 'password');
+    }
+};
+
+subtest 'put_sections invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('put_sections', 'name', 'string'), 'sections' => $utils->get_param_value('put_sections', 'sections', 'Sections'), 'password' => $utils->get_param_value('put_sections', 'password', 'string'), 'folder' => $utils->get_param_value('put_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('put_sections', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_sections', 'folder', $params{ folder });
+    $utils->initialize('put_sections', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_sections', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_sections', 'folder');
+    }
+};
+
+subtest 'put_sections invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('put_sections', 'name', 'string'), 'sections' => $utils->get_param_value('put_sections', 'sections', 'Sections'), 'password' => $utils->get_param_value('put_sections', 'password', 'string'), 'folder' => $utils->get_param_value('put_sections', 'folder', 'string'), 'storage' => $utils->get_param_value('put_sections', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_sections', 'storage', $params{ storage });
+    $utils->initialize('put_sections', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_sections(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_sections', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_sections', 'storage');
     }
 };
 
@@ -16371,6 +17346,111 @@ subtest 'put_slide_animation_interactive_sequence_effect invalid storage' => sub
 };
 
 #
+# put_slide_header_footer test
+#
+subtest 'put_slide_header_footer' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $utils->initialize('put_slide_header_footer', '');
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        fail("put_slide_header_footer raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'put_slide_header_footer invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_slide_header_footer', 'name', $params{ name });
+    $utils->initialize('put_slide_header_footer', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_header_footer', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_header_footer', 'name');
+    }
+};
+
+subtest 'put_slide_header_footer invalid slide_index' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $params{ slide_index } = $utils->invalidize_param_value('put_slide_header_footer', 'slide_index', $params{ slide_index });
+    $utils->initialize('put_slide_header_footer', 'slide_index', $params{ slide_index });
+
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_header_footer', 'slide_index', $params{ slide_index }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_header_footer', 'slide_index');
+    }
+};
+
+subtest 'put_slide_header_footer invalid dto' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_slide_header_footer', 'dto', $params{ dto });
+    $utils->initialize('put_slide_header_footer', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_header_footer', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_header_footer', 'dto');
+    }
+};
+
+subtest 'put_slide_header_footer invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_slide_header_footer', 'password', $params{ password });
+    $utils->initialize('put_slide_header_footer', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_header_footer', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_header_footer', 'password');
+    }
+};
+
+subtest 'put_slide_header_footer invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_slide_header_footer', 'folder', $params{ folder });
+    $utils->initialize('put_slide_header_footer', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_header_footer', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_header_footer', 'folder');
+    }
+};
+
+subtest 'put_slide_header_footer invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slide_header_footer', 'name', 'string'), 'slide_index' => $utils->get_param_value('put_slide_header_footer', 'slide_index', 'int'), 'dto' => $utils->get_param_value('put_slide_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slide_header_footer', 'password', 'string'), 'folder' => $utils->get_param_value('put_slide_header_footer', 'folder', 'string'), 'storage' => $utils->get_param_value('put_slide_header_footer', 'storage', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_slide_header_footer', 'storage', $params{ storage });
+    $utils->initialize('put_slide_header_footer', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_slide_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slide_header_footer', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_slide_header_footer', 'storage');
+    }
+};
+
+#
 # put_slide_save_as test
 #
 subtest 'put_slide_save_as' => sub {
@@ -16809,7 +17889,7 @@ subtest 'put_slide_subshape_info invalid storage' => sub {
 # put_slides_convert test
 #
 subtest 'put_slides_convert' => sub {
-    my %params = ('format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
     $utils->initialize('put_slides_convert', '');
     eval {
         my $result = $utils->{api}->put_slides_convert(%params);
@@ -16820,8 +17900,23 @@ subtest 'put_slides_convert' => sub {
     pass();
 };
 
+subtest 'put_slides_convert invalid document' => sub {
+    my %params = ('document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
+    $params{ document } = $utils->invalidize_param_value('put_slides_convert', 'document', $params{ document });
+    $utils->initialize('put_slides_convert', 'document', $params{ document });
+
+    eval {
+        my $result = $utils->{api}->put_slides_convert(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_convert', 'document', $params{ document }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_convert', 'document');
+    }
+};
+
 subtest 'put_slides_convert invalid format' => sub {
-    my %params = ('format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
     $params{ format } = $utils->invalidize_param_value('put_slides_convert', 'format', $params{ format });
     $utils->initialize('put_slides_convert', 'format', $params{ format });
 
@@ -16836,7 +17931,7 @@ subtest 'put_slides_convert invalid format' => sub {
 };
 
 subtest 'put_slides_convert invalid out_path' => sub {
-    my %params = ('format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
     $params{ out_path } = $utils->invalidize_param_value('put_slides_convert', 'out_path', $params{ out_path });
     $utils->initialize('put_slides_convert', 'out_path', $params{ out_path });
 
@@ -16850,23 +17945,8 @@ subtest 'put_slides_convert invalid out_path' => sub {
     }
 };
 
-subtest 'put_slides_convert invalid document' => sub {
-    my %params = ('format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
-    $params{ document } = $utils->invalidize_param_value('put_slides_convert', 'document', $params{ document });
-    $utils->initialize('put_slides_convert', 'document', $params{ document });
-
-    eval {
-        my $result = $utils->{api}->put_slides_convert(%params);
-    };
-    if ($@) {
-        $utils->assert_error('put_slides_convert', 'document', $params{ document }, $@);
-    } else {
-        $utils->assert_no_error('put_slides_convert', 'document');
-    }
-};
-
 subtest 'put_slides_convert invalid password' => sub {
-    my %params = ('format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
     $params{ password } = $utils->invalidize_param_value('put_slides_convert', 'password', $params{ password });
     $utils->initialize('put_slides_convert', 'password', $params{ password });
 
@@ -16881,7 +17961,7 @@ subtest 'put_slides_convert invalid password' => sub {
 };
 
 subtest 'put_slides_convert invalid fonts_folder' => sub {
-    my %params = ('format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
+    my %params = ('document' => $utils->get_param_value('put_slides_convert', 'document', 'File'), 'format' => $utils->get_param_value('put_slides_convert', 'format', 'string'), 'out_path' => $utils->get_param_value('put_slides_convert', 'out_path', 'string'), 'password' => $utils->get_param_value('put_slides_convert', 'password', 'string'), 'fonts_folder' => $utils->get_param_value('put_slides_convert', 'fonts_folder', 'string'));
     $params{ fonts_folder } = $utils->invalidize_param_value('put_slides_convert', 'fonts_folder', $params{ fonts_folder });
     $utils->initialize('put_slides_convert', 'fonts_folder', $params{ fonts_folder });
 
@@ -16982,6 +18062,96 @@ subtest 'put_slides_document_from_html invalid folder' => sub {
         $utils->assert_error('put_slides_document_from_html', 'folder', $params{ folder }, $@);
     } else {
         $utils->assert_no_error('put_slides_document_from_html', 'folder');
+    }
+};
+
+#
+# put_slides_header_footer test
+#
+subtest 'put_slides_header_footer' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slides_header_footer', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slides_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_slides_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_slides_header_footer', 'folder', 'string'));
+    $utils->initialize('put_slides_header_footer', '');
+    eval {
+        my $result = $utils->{api}->put_slides_header_footer(%params);
+    };
+    if ($@) {
+        fail("put_slides_header_footer raised an exception: $@");
+    }
+    pass();
+};
+
+subtest 'put_slides_header_footer invalid name' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slides_header_footer', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slides_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_slides_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_slides_header_footer', 'folder', 'string'));
+    $params{ name } = $utils->invalidize_param_value('put_slides_header_footer', 'name', $params{ name });
+    $utils->initialize('put_slides_header_footer', 'name', $params{ name });
+
+    eval {
+        my $result = $utils->{api}->put_slides_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_header_footer', 'name', $params{ name }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_header_footer', 'name');
+    }
+};
+
+subtest 'put_slides_header_footer invalid dto' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slides_header_footer', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slides_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_slides_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_slides_header_footer', 'folder', 'string'));
+    $params{ dto } = $utils->invalidize_param_value('put_slides_header_footer', 'dto', $params{ dto });
+    $utils->initialize('put_slides_header_footer', 'dto', $params{ dto });
+
+    eval {
+        my $result = $utils->{api}->put_slides_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_header_footer', 'dto', $params{ dto }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_header_footer', 'dto');
+    }
+};
+
+subtest 'put_slides_header_footer invalid password' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slides_header_footer', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slides_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_slides_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_slides_header_footer', 'folder', 'string'));
+    $params{ password } = $utils->invalidize_param_value('put_slides_header_footer', 'password', $params{ password });
+    $utils->initialize('put_slides_header_footer', 'password', $params{ password });
+
+    eval {
+        my $result = $utils->{api}->put_slides_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_header_footer', 'password', $params{ password }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_header_footer', 'password');
+    }
+};
+
+subtest 'put_slides_header_footer invalid storage' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slides_header_footer', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slides_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_slides_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_slides_header_footer', 'folder', 'string'));
+    $params{ storage } = $utils->invalidize_param_value('put_slides_header_footer', 'storage', $params{ storage });
+    $utils->initialize('put_slides_header_footer', 'storage', $params{ storage });
+
+    eval {
+        my $result = $utils->{api}->put_slides_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_header_footer', 'storage', $params{ storage }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_header_footer', 'storage');
+    }
+};
+
+subtest 'put_slides_header_footer invalid folder' => sub {
+    my %params = ('name' => $utils->get_param_value('put_slides_header_footer', 'name', 'string'), 'dto' => $utils->get_param_value('put_slides_header_footer', 'dto', 'HeaderFooter'), 'password' => $utils->get_param_value('put_slides_header_footer', 'password', 'string'), 'storage' => $utils->get_param_value('put_slides_header_footer', 'storage', 'string'), 'folder' => $utils->get_param_value('put_slides_header_footer', 'folder', 'string'));
+    $params{ folder } = $utils->invalidize_param_value('put_slides_header_footer', 'folder', $params{ folder });
+    $utils->initialize('put_slides_header_footer', 'folder', $params{ folder });
+
+    eval {
+        my $result = $utils->{api}->put_slides_header_footer(%params);
+    };
+    if ($@) {
+        $utils->assert_error('put_slides_header_footer', 'folder', $params{ folder }, $@);
+    } else {
+        $utils->assert_no_error('put_slides_header_footer', 'folder');
     }
 };
 

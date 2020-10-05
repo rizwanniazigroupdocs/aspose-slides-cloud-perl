@@ -165,10 +165,10 @@ sub assert_error {
         }
         if ($error =~ m/API Exception\((\d+)\): (.*) /s) {
             is($1, $code);
-            ok(index($error, $self->untemplatize($message, $value)) != -1);
         } else {
-            fail("strange exception for $function $parameter");
+            is(400, $code);
         }
+        ok(index($error, $self->untemplatize($message, $value)) != -1);
     } else {
         fail("expected to fail for $function $parameter");
     }
