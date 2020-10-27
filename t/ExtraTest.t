@@ -97,7 +97,6 @@ subtest 'subclass property deserialization' => sub {
 subtest 'chart initialization' => sub {
     my $chart = AsposeSlidesCloud::Object::Chart->new();
     is($chart->{type}, "Chart");
-    is($chart->{shape_type}, "Chart");
 };
 
 subtest 'timeout' => sub {
